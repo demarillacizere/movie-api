@@ -1,0 +1,502 @@
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["f490510b-b191-4042-9405-d40377e5aca5"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["326"]}
+BODY: {
+     "title": "Test movie",
+    "year": "2023",
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["d3794ce5-e631-47fb-a425-c0f34d14ce02"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["326"]}
+BODY: {
+     "title": "Test movie",
+    "year": "2023",
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["2cb9a012-796c-4c54-8b72-638deeacd8aa"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["326"]}
+BODY: {
+     "title": "Test movie",
+    "year": "2023",
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["86b5e996-7ce8-465b-885c-26e2f026fc01"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["c77c517f-cdd4-4972-8c6b-3cf0ca8a067c"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["374fa3b3-8d1e-4fc6-938f-0cdc45754221"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["5fcc3f4d-5d19-4364-b850-99cf50032263"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["f02315ff-0acc-4a13-b180-b6041c648906"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["4adc93ca-37bb-4c9f-be61-1660b9d17ac7"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["322"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": 2023-07-06,
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["dd5644e7-4cf1-4f3d-a8dd-94daab1d9bf8"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["322"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": 2023-07-06,
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["d769b874-ccd3-4848-ae8a-04b971c0422e"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["322"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": 2023-07-06,
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["612e87bc-333a-4546-b574-a51183692add"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["322"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": 2023-07-06,
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["0bdf3757-7bc7-4e7d-ac69-2c7f89182e78"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"Content-Type":["application\/json"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["9fd5cf8e-d0ee-44d0-913a-43cddac6c0b8"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["1774"]}
+BODY: {"query":"\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "}
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["b8a6de54-ea30-4db0-90f7-ee1a0e18f134"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["0"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/fill-with-sample-data
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["fff820fc-59da-473d-8358-577e0f0295bd"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/fill-with-sample-data
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["fff820fc-59da-473d-8358-577e0f0295bd"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/fill-with-sample-data
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["6bd9165c-7734-4c8d-beaa-74286ff1b5d0"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/fill-with-sample-data
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["6bd9165c-7734-4c8d-beaa-74286ff1b5d0"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/27
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["462dc77a-a251-41f6-9fda-b5a6f454df35"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/27
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["462dc77a-a251-41f6-9fda-b5a6f454df35"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/27
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["e464a854-5015-47b7-b486-ae5880577bf6"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/27
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["e464a854-5015-47b7-b486-ae5880577bf6"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/27
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["e1ae266e-2ac4-40e7-b317-9e179532e94e"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/27
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["e1ae266e-2ac4-40e7-b317-9e179532e94e"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["abb77de7-30c6-4bdb-bedd-f6e5d36e03a1"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["05f937c7-f60c-4be8-8048-c9cacc8f3b01"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["0115382e-4c76-4192-a58b-7549c46e6c6c"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["6e596487-6da8-4ccd-bf84-f58722b7af9d"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["6ba2fd47-3c11-4e12-ab1c-9ed99260a7ed"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["dea440cf-0e55-4d23-903b-1d5e81ddfa0e"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["dea440cf-0e55-4d23-903b-1d5e81ddfa0e"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["417dfd3c-f5fe-4b7f-84b5-fddbcc532df6"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["417dfd3c-f5fe-4b7f-84b5-fddbcc532df6"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["46535a54-f8e1-407a-a858-113fd6c4e505"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["ff43a517-c58e-4ba9-b045-861bd67d635f"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["d55d342e-0077-4a1e-8033-4cb28eb07f45"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["d55d342e-0077-4a1e-8033-4cb28eb07f45"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["324"]}
+BODY: {
+     "title": "Test movie",
+    "year": 2023,
+    "released": "2023-07-06",
+    "runtime": "152 min",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright",
+    "country": "USA",
+    "poster": "https://example.com/poster5.jpg",
+    "imdb": 8.8,
+    "type": "movie"
+    }
+
+
