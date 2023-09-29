@@ -13,6 +13,7 @@ use OpenApi\Annotations as OA;
 use Psr\Http\Message\ResponseInterface;
 use Slim\Psr7\Request;
 use Slim\Psr7\Response;
+use MovieApi\Models\RequestValidator;
 
 /**
  * @OA\Info(
@@ -102,35 +103,27 @@ class MoviesController extends A_Controller
     public function addAction(Request $request, Response $response): ResponseInterface
     {
         $requestBody = json_decode($request->getBody(), true);
-        $title = filter_var($requestBody['title'], FILTER_SANITIZE_STRING | FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-        $year = filter_var($requestBody['year'], FILTER_SANITIZE_NUMBER_INT);
-        $released = filter_var($requestBody['released'], FILTER_SANITIZE_STRING);
-        $runtime = filter_var($requestBody['runtime'], FILTER_SANITIZE_STRING);
-        $genre = filter_var($requestBody['genre'], FILTER_SANITIZE_STRING);
-        $director = filter_var($requestBody['director'], FILTER_SANITIZE_STRING);
-        $actors = filter_var($requestBody['actors'], FILTER_SANITIZE_STRING);
-        $country = filter_var($requestBody['country'], FILTER_SANITIZE_STRING);
-        $poster = filter_var($requestBody['poster'], FILTER_SANITIZE_STRING | FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-        $imdb = filter_var($requestBody['imdb'], FILTER_SANITIZE_NUMBER_FLOAT);
-        $type = filter_var($requestBody['type'], FILTER_SANITIZE_STRING);
-
-
-        $movies = new Movies($this->container);
         try {
-            $movies->insert(
-                [
-                    $title,
-                    $year,
-                    $released,
-                    $runtime,
-                    $genre,
-                    $director,
-                    $actors,
-                    $country,
-                    $poster,
-                    $imdb,
-                    $type
-                ]
+            // Use the RequestValidator class to validate and sanitize the data
+            $validatedData = RequestValidator::validateMovieData($requestBody);
+    
+            // If all assertions pass and data is sanitized, proceed to use it
+            // For example, you can pass it to your model or database operation
+            $movie = new Movies($this->container);
+            $movie->insert([
+                $validatedData['title'],
+                $validatedData['year'],
+                $validatedData['released'],
+                $validatedData['runtime'],
+                $validatedData['genre'],
+                $validatedData['director'],
+                $validatedData['actors'],
+                $validatedData['country'],
+                $validatedData['poster'],
+                $validatedData['imdb'],
+                $validatedData['type'],
+            ]
+                    
             );
         } catch (AssertionFailedException $e) {
             $responseData = [
