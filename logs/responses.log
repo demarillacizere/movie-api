@@ -1672,3 +1672,43 @@ BODY: [
 ]
 
 
+STATUS CODE: 500
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {"error":"Database error"}
+
+
+STATUS CODE: 500
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {"error":"Database error"}
+
+
+STATUS CODE: 500
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {"error":{"errorInfo":["42S22",1054,"Unknown column 'id' in 'where clause'"]}}
+
+
+STATUS CODE: 500
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {"error":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'"}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {"message":"Movie updated successfully","data":{}}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {"message":"Movie updated successfully","data":{}}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {"message":"Movie updated successfully","data":{"uid":47,"title":"Test movie updated by patch lets see if it works at the first trial!!","year":"2025","released":"2023-07-06","runtime":"123 min","genre":"Drama, Romance","director":"Robert Zemeckis","actors":"Tom Hanks, Robin Wright","country":"USA","poster":"https:\/\/example.com\/poster5.jpg","imdb":8.8,"type":"movie"}}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {"message":"Movie updated successfully","data":{"uid":47,"title":"Test movie updated by patch lets see if it works at the last trial!!","year":"2020","released":"2023-07-06","runtime":"123 min","genre":"Drama, Romance","director":"Robert Zemeckis","actors":"Tom Hanks, Robin Wright","country":"USA","poster":"https:\/\/example.com\/poster5.jpg","imdb":8.8,"type":"movie"}}
+
+

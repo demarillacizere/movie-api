@@ -28,11 +28,11 @@ class MoviesController extends A_Controller
 {
     /**
      * @OA\Get(
-     *     path="/v1/posts",
-     *     description="Returns all posts",
+     *     path="/v1/movies",
+     *     description="Returns all movies",
      *     @OA\Response(
      *          response=200,
-     *          description="posts response",
+     *          description="movies response",
      *      ),
      *      @OA\Response(
      *          response=500,
@@ -51,7 +51,7 @@ class MoviesController extends A_Controller
 
     /**
      * @OA\Post(
-     *     path="/v1/posts",
+     *     path="/v1/movies",
      *     description="Add a movie",
      *     @OA\RequestBody(
      *          description="Input data format",
@@ -66,17 +66,17 @@ class MoviesController extends A_Controller
      *                  ),
      *                  @OA\Property(
      *                      property="authorId",
-     *                      description="ID of author of new post",
+     *                      description="ID of author of new movie",
      *                      type="integer",
      *                  ),
      *                  @OA\Property(
      *                      property="img",
-     *                      description="Image URL of new post",
+     *                      description="Image URL of new movie",
      *                      type="string",
      *                  ),
      *                  @OA\Property(
      *                      property="content",
-     *                      description="Content of new post",
+     *                      description="Content of new movie",
      *                      type="string",
      *                  ),
      *              ),
@@ -84,7 +84,7 @@ class MoviesController extends A_Controller
      *      ),
      *     @OA\Response(
      *          response=200,
-     *          description="post has been created successfully",
+     *          description="movie has been created successfully",
      *      ),
      *     @OA\Response(
      *          response=400,
@@ -105,7 +105,7 @@ class MoviesController extends A_Controller
         $requestBody = json_decode($request->getBody(), true);
         try {
             // Use the RequestValidator class to validate and sanitize the data
-            $validatedData = RequestValidator::validateMovieData($requestBody);
+            $validatedData = RequestValidator::PostAndPutValidation($requestBody);
     
             // If all assertions pass and data is sanitized, proceed to use it
             // For example, you can pass it to your model or database operation
@@ -145,9 +145,9 @@ class MoviesController extends A_Controller
     /**
      * @OA\Put(
      *     path="/v1/posts/{id}",
-     *     description="update a single post from blog based on post ID",
+     *     description="update a single movie from blog based on movie ID",
      *     @OA\Parameter(
-     *          description="ID of post to update",
+     *          description="ID of movie to update",
      *          in="path",
      *          name="id",
      *          required=true,
@@ -164,22 +164,22 @@ class MoviesController extends A_Controller
      *                   type="object",
      *                   @OA\Property(
      *                       property="title",
-     *                       description="title of new post",
+     *                       description="title of new movie",
      *                       type="string",
      *                   ),
      *                   @OA\Property(
      *                       property="authorId",
-     *                       description="ID of author of new post",
+     *                       description="ID of author of new movie",
      *                       type="integer",
      *                   ),
      *                   @OA\Property(
      *                       property="img",
-     *                       description="Image URL of new post",
+     *                       description="Image URL of new movie",
      *                       type="string",
      *                   ),
      *                   @OA\Property(
      *                       property="content",
-     *                       description="Content of new post",
+     *                       description="Content of new movie",
      *                       type="string",
      *                   ),
      *               ),
@@ -187,7 +187,7 @@ class MoviesController extends A_Controller
      *       ),
      * @OA\Response(
      *           response=200,
-     *           description="post has been created successfully",
+     *           description="movie has been created successfully",
      *       ),
      * @OA\Response(
      *           response=400,
@@ -211,9 +211,9 @@ class MoviesController extends A_Controller
     {
         $requestBody = json_decode($request->getBody(), true);
         $id = $args['id'];
-        $validatedData = RequestValidator::validateMovieData($requestBody);
         $movies = new Movies($this->container);
         try {
+            $validatedData = RequestValidator::PostAndPutValidation($requestBody);
             $movies->update(
                 [
                     $validatedData['title'],
@@ -250,9 +250,9 @@ class MoviesController extends A_Controller
     /**
      * @OA\Delete(
      *     path="/v1/posts/{id}",
-     *     description="deletes a single post from blog based on pot ID",
+     *     description="deletes a single movie from blog based on pot ID",
      *     @OA\Parameter(
-     *         description="ID of post to delete",
+     *         description="ID of movie to delete",
      *         in="path",
      *         name="id",
      *         required=true,
@@ -263,7 +263,7 @@ class MoviesController extends A_Controller
      *     ),
      *     @OA\Response(
      *         response=200,
-     *         description="post has been deleted"
+     *         description="movie has been deleted"
      *     ),
      * @OA\Response(
      *            response=400,
@@ -289,6 +289,24 @@ class MoviesController extends A_Controller
             'message' => 'Movie has been deleted.'
         ];
         return $this->render($responseData, $response);
+    }
+
+    public function patchAction(Request $request, Response $response, $args = []): ResponseInterface
+    {
+        $id = $args['id'];
+        $requestBody = json_decode($request->getBody(), true);
+
+        try {
+            $validatedData = RequestValidator::ValidateAndSanitizeFields($requestBody);
+            $movie = new Movies($this->container);
+            $updatedMovie = $movie->patch($id, $validatedData);
+            $response->getBody()->write(json_encode(['message' => 'Movie updated successfully', 'data' => $updatedMovie]));
+            return $response->withHeader('Content-Type', 'application/json')->withStatus(200);
+        } catch (\PDOException $exception) {
+            // Handle database errors and return an error response
+            $response->getBody()->write(json_encode(['error' => $exception->getMessage()]));
+            return $response->withHeader('Content-Type', 'application/json')->withStatus(500);
+        }
     }
 
     public function numberPerPageAction(Request $request, Response $response, $args = []): ResponseInterface

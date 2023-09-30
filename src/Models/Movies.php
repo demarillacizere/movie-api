@@ -106,6 +106,29 @@ class Movies extends A_Model
         return true;
     }
 
+    public function patch($movieId, $data):array
+    {
+        $sql = "UPDATE " . $this->dbTableName . " SET ";
+        $params = [];
+        foreach ($data as $field => $value) {
+            $sql .= "$field = ?, ";
+            $params[] = $value;
+        }
+        // Remove the trailing comma and add the WHERE clause
+        $sql = rtrim($sql, ', ') . " WHERE uid = ?";
+        // Add the movie ID to the parameters
+        $params[] = $movieId;
+        try {
+            $stm = $this->getPdo()->prepare($sql);
+            $stm->execute($params);
+            // Fetch the updated movie data and return it
+            $updatedMovie = $this->findById($movieId);
+            return $updatedMovie;
+        } catch (\PDOException $exception) {
+            throw $exception;
+        }
+    }
+
     function delete(int $id): bool
     {
         $sql = "DELETE FROM " . $this->dbTableName . " WHERE uid=?";

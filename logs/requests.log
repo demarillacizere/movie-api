@@ -2845,3 +2845,147 @@ BODY: {
     }
 
 
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["a5936f94-8044-470b-bfc4-157e409592df"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["671537e6-160c-4290-98c2-17830deeb6df"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["972f72d3-2588-4c61-9b5c-ae00fa3fcbf3"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["972f72d3-2588-4c61-9b5c-ae00fa3fcbf3"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["da432a40-5a09-4ed3-8e27-37c0627918e8"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["da432a40-5a09-4ed3-8e27-37c0627918e8"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["89912a7e-5d27-4cb2-9a9e-05d1cafea956"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["89912a7e-5d27-4cb2-9a9e-05d1cafea956"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["eff53336-76fb-485e-bb23-78cce93be941"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["eff53336-76fb-485e-bb23-78cce93be941"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["4d5f170c-6476-466b-af22-eb09f969c38b"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["4d5f170c-6476-466b-af22-eb09f969c38b"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["d0105723-5615-48a1-b7b6-97baa1b49d47"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["d0105723-5615-48a1-b7b6-97baa1b49d47"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["9261a8c8-8c12-4660-bf4f-d08e24ae52b0"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["9261a8c8-8c12-4660-bf4f-d08e24ae52b0"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["110"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the first trial!!",
+    "year": 2025
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["7c5a64dd-fd16-4c29-be73-7a70489b053e"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["109"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the last trial!!",
+    "year": 2020
+    }
+
+
+URI: http://localhost:8888/v1/movies/47
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["7c5a64dd-fd16-4c29-be73-7a70489b053e"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["109"]}
+BODY: {
+    "title": "Test movie updated by patch lets see if it works at the last trial!!",
+    "year": 2020
+    }
+
+
