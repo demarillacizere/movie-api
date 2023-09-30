@@ -11,6 +11,7 @@ abstract class A_Model
     private ?PDO $pdo;
 
     abstract function findAll(): array;
+    abstract function findByNumberPerPage($numberPerPage): array;
 
     abstract function findById(int $id): array;
 

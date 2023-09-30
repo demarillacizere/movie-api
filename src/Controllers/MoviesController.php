@@ -291,6 +291,23 @@ class MoviesController extends A_Controller
         return $this->render($responseData, $response);
     }
 
+    public function numberPerPageAction(Request $request, Response $response, $args = []): ResponseInterface
+    {
+        $numberOfMovies = $args['numberPerPage'];
+        $movies = new Movies($this->container);
+        $data = $movies->findByNumberPerPage($numberOfMovies);
+        return $this->render($data, $response);
+    }
+
+    public function sortedNumberPerPageAction(Request $request, Response $response, $args = []): ResponseInterface
+    {
+        $numberOfMovies = $args['numberPerPage'];
+        $fieldToSort = $args['fieldToSort'];
+        $movies = new Movies($this->container);
+        $data = $movies->findByNumberPerPageAndSort($numberOfMovies, $fieldToSort);
+        return $this->render($data, $response);
+    }
+
     public function fakeAction(Request $request, Response $response, $args = []): ResponseInterface
     {
         $movies = new Movies($this->container);

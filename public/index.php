@@ -39,6 +39,8 @@ $app->group('/v1', function (RouteCollectorProxy $group) {
     $group->post('/movies', '\MovieApi\Controllers\MoviesController:addAction');
     $group->put('/movies/{id:[0-9]+}', '\MovieApi\Controllers\MoviesController:updateAction');
     $group->delete('/movies/{id:[0-9]+}', '\MovieApi\Controllers\MoviesController:deleteAction');
+    $group->get('/movies/{numberPerPage:[0-9]+}', '\MovieApi\Controllers\MoviesController:numberPerPageAction');
+    $group->get('/movies/{numberPerPage:[0-9]+}/sort/{fieldToSort}', '\MovieApi\Controllers\MoviesController:sortedNumberPerPageAction');
     $group->get('/movies/fill-with-sample-data', '\MovieApi\Controllers\MoviesController:fakeAction');
     $group->get('/apidocs', '\MovieApi\Controllers\OpenAPIController:documentationAction');
 })->add(new MiddlewareBefore($container))->add(new MiddlewareAfter($container));

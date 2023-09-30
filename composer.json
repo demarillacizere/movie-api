@@ -11,7 +11,6 @@
         "nyholm/psr7-server": "^1.0",
         "laminas/laminas-diactoros": "^3.2",
         "vlucas/phpdotenv": "^5.5",
-        "fzaninotto/faker": "^1.5",
         "beberlei/assert": "^3.3",
         "zircote/swagger-php": "^4.7",
         "php-di/php-di": "^7.0",

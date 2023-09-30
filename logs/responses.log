@@ -593,3 +593,1082 @@ HEADERS: {"content-type":["application\/json"]}
 BODY: {"status":404,"message":"not found"}
 
 
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "uid": 28,
+    "title": "The Godfather",
+    "year": "1972",
+    "released": "1972-03-24",
+    "runtime": "175 min",
+    "genre": "Crime, Drama",
+    "director": "Francis Ford Coppola",
+    "actors": "Marlon Brando, Al Pacino",
+    "country": "USA",
+    "poster": "https:\/\/example.com\/poster2.jpg",
+    "imdb": 10,
+    "type": "movie"
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "uid": 28,
+    "title": "The Godfather",
+    "year": "1972",
+    "released": "1972-03-24",
+    "runtime": "175 min",
+    "genre": "Crime, Drama",
+    "director": "Francis Ford Coppola",
+    "actors": "Marlon Brando, Al Pacino",
+    "country": "USA",
+    "poster": "https:\/\/example.com\/poster2.jpg",
+    "imdb": 10,
+    "type": "movie"
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 28,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    }
+]
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 28,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    },
+    {
+        "uid": 29,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    },
+    {
+        "uid": 30,
+        "title": "The Dark Knight",
+        "year": "2008",
+        "released": "2008-07-18",
+        "runtime": "152 min",
+        "genre": "Action, Crime, Drama",
+        "director": "Christopher Nolan",
+        "actors": "Christian Bale, Heath Ledger",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster4.jpg",
+        "imdb": 6,
+        "type": "movie"
+    }
+]
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 28,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    },
+    {
+        "uid": 29,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    },
+    {
+        "uid": 30,
+        "title": "The Dark Knight",
+        "year": "2008",
+        "released": "2008-07-18",
+        "runtime": "152 min",
+        "genre": "Action, Crime, Drama",
+        "director": "Christopher Nolan",
+        "actors": "Christian Bale, Heath Ledger",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster4.jpg",
+        "imdb": 6,
+        "type": "movie"
+    },
+    {
+        "uid": 31,
+        "title": "Forrest Gump",
+        "year": "1994",
+        "released": "1994-07-06",
+        "runtime": "142 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 8.8,
+        "type": "movie"
+    },
+    {
+        "uid": 32,
+        "title": "The Shawshank Redemption",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "142 min",
+        "genre": "Drama",
+        "director": "Frank Darabont",
+        "actors": "Tim Robbins, Morgan Freeman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster1.jpg",
+        "imdb": 9.8,
+        "type": "movie"
+    }
+]
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 28,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    },
+    {
+        "uid": 29,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    },
+    {
+        "uid": 30,
+        "title": "The Dark Knight",
+        "year": "2008",
+        "released": "2008-07-18",
+        "runtime": "152 min",
+        "genre": "Action, Crime, Drama",
+        "director": "Christopher Nolan",
+        "actors": "Christian Bale, Heath Ledger",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster4.jpg",
+        "imdb": 6,
+        "type": "movie"
+    },
+    {
+        "uid": 31,
+        "title": "Forrest Gump",
+        "year": "1994",
+        "released": "1994-07-06",
+        "runtime": "142 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 8.8,
+        "type": "movie"
+    },
+    {
+        "uid": 32,
+        "title": "The Shawshank Redemption",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "142 min",
+        "genre": "Drama",
+        "director": "Frank Darabont",
+        "actors": "Tim Robbins, Morgan Freeman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster1.jpg",
+        "imdb": 9.8,
+        "type": "movie"
+    },
+    {
+        "uid": 33,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    },
+    {
+        "uid": 34,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    },
+    {
+        "uid": 35,
+        "title": "The Dark Knight",
+        "year": "2008",
+        "released": "2008-07-18",
+        "runtime": "152 min",
+        "genre": "Action, Crime, Drama",
+        "director": "Christopher Nolan",
+        "actors": "Christian Bale, Heath Ledger",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster4.jpg",
+        "imdb": 6,
+        "type": "movie"
+    },
+    {
+        "uid": 36,
+        "title": "Forrest Gump",
+        "year": "1994",
+        "released": "1994-07-06",
+        "runtime": "142 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 8.8,
+        "type": "movie"
+    }
+]
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 28,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    },
+    {
+        "uid": 29,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    },
+    {
+        "uid": 30,
+        "title": "The Dark Knight",
+        "year": "2008",
+        "released": "2008-07-18",
+        "runtime": "152 min",
+        "genre": "Action, Crime, Drama",
+        "director": "Christopher Nolan",
+        "actors": "Christian Bale, Heath Ledger",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster4.jpg",
+        "imdb": 6,
+        "type": "movie"
+    },
+    {
+        "uid": 31,
+        "title": "Forrest Gump",
+        "year": "1994",
+        "released": "1994-07-06",
+        "runtime": "142 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 8.8,
+        "type": "movie"
+    },
+    {
+        "uid": 32,
+        "title": "The Shawshank Redemption",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "142 min",
+        "genre": "Drama",
+        "director": "Frank Darabont",
+        "actors": "Tim Robbins, Morgan Freeman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster1.jpg",
+        "imdb": 9.8,
+        "type": "movie"
+    },
+    {
+        "uid": 33,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    },
+    {
+        "uid": 34,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    },
+    {
+        "uid": 35,
+        "title": "The Dark Knight",
+        "year": "2008",
+        "released": "2008-07-18",
+        "runtime": "152 min",
+        "genre": "Action, Crime, Drama",
+        "director": "Christopher Nolan",
+        "actors": "Christian Bale, Heath Ledger",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster4.jpg",
+        "imdb": 6,
+        "type": "movie"
+    },
+    {
+        "uid": 36,
+        "title": "Forrest Gump",
+        "year": "1994",
+        "released": "1994-07-06",
+        "runtime": "142 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 8.8,
+        "type": "movie"
+    },
+    {
+        "uid": 37,
+        "title": "Test movie",
+        "year": "2023",
+        "released": "2023-07-06",
+        "runtime": "152 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    },
+    {
+        "uid": 38,
+        "title": "Test movie",
+        "year": "2023",
+        "released": "2023-07-06",
+        "runtime": "152 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    },
+    {
+        "uid": 39,
+        "title": "Test movie",
+        "year": "2023",
+        "released": "2023-07-06",
+        "runtime": "152 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    },
+    {
+        "uid": 40,
+        "title": "Test movie",
+        "year": "2023",
+        "released": "2023-07-06",
+        "runtime": "152 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    },
+    {
+        "uid": 41,
+        "title": "Test movie",
+        "year": "2023",
+        "released": "2023-07-06",
+        "runtime": "152 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    },
+    {
+        "uid": 42,
+        "title": "Test movie",
+        "year": "2023",
+        "released": "2023-07-06",
+        "runtime": "152 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    },
+    {
+        "uid": 43,
+        "title": "Test movie",
+        "year": "2023",
+        "released": "2023-07-06",
+        "runtime": "152 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    },
+    {
+        "uid": 44,
+        "title": "Test movie",
+        "year": "2023",
+        "released": "2023-07-06",
+        "runtime": "152 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    },
+    {
+        "uid": 45,
+        "title": "Test movie",
+        "year": "2023",
+        "released": "2023-07-06",
+        "runtime": "152 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    },
+    {
+        "uid": 46,
+        "title": "Test movie",
+        "year": "2023",
+        "released": "2023-07-06",
+        "runtime": "152 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    },
+    {
+        "uid": 47,
+        "title": "Test movie updated",
+        "year": "2021",
+        "released": "2023-07-06",
+        "runtime": "123 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 8.8,
+        "type": "movie"
+    },
+    {
+        "uid": 48,
+        "title": "Test movie updated",
+        "year": "2021",
+        "released": "2023-07-06",
+        "runtime": "123 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    }
+]
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 28,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    },
+    {
+        "uid": 29,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    },
+    {
+        "uid": 30,
+        "title": "The Dark Knight",
+        "year": "2008",
+        "released": "2008-07-18",
+        "runtime": "152 min",
+        "genre": "Action, Crime, Drama",
+        "director": "Christopher Nolan",
+        "actors": "Christian Bale, Heath Ledger",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster4.jpg",
+        "imdb": 6,
+        "type": "movie"
+    }
+]
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 28,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    },
+    {
+        "uid": 29,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    },
+    {
+        "uid": 30,
+        "title": "The Dark Knight",
+        "year": "2008",
+        "released": "2008-07-18",
+        "runtime": "152 min",
+        "genre": "Action, Crime, Drama",
+        "director": "Christopher Nolan",
+        "actors": "Christian Bale, Heath Ledger",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster4.jpg",
+        "imdb": 6,
+        "type": "movie"
+    }
+]
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 28,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    },
+    {
+        "uid": 29,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    },
+    {
+        "uid": 30,
+        "title": "The Dark Knight",
+        "year": "2008",
+        "released": "2008-07-18",
+        "runtime": "152 min",
+        "genre": "Action, Crime, Drama",
+        "director": "Christopher Nolan",
+        "actors": "Christian Bale, Heath Ledger",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster4.jpg",
+        "imdb": 6,
+        "type": "movie"
+    }
+]
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 31,
+        "title": "Forrest Gump",
+        "year": "1994",
+        "released": "1994-07-06",
+        "runtime": "142 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 8.8,
+        "type": "movie"
+    },
+    {
+        "uid": 36,
+        "title": "Forrest Gump",
+        "year": "1994",
+        "released": "1994-07-06",
+        "runtime": "142 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 8.8,
+        "type": "movie"
+    },
+    {
+        "uid": 29,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    }
+]
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 31,
+        "title": "Forrest Gump",
+        "year": "1994",
+        "released": "1994-07-06",
+        "runtime": "142 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 8.8,
+        "type": "movie"
+    },
+    {
+        "uid": 36,
+        "title": "Forrest Gump",
+        "year": "1994",
+        "released": "1994-07-06",
+        "runtime": "142 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 8.8,
+        "type": "movie"
+    },
+    {
+        "uid": 29,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    }
+]
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 28,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    },
+    {
+        "uid": 33,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    },
+    {
+        "uid": 29,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    }
+]
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 29,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    },
+    {
+        "uid": 34,
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "154 min",
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "actors": "John Travolta, Uma Thurman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster3.jpg",
+        "imdb": 5.5,
+        "type": "movie"
+    },
+    {
+        "uid": 30,
+        "title": "The Dark Knight",
+        "year": "2008",
+        "released": "2008-07-18",
+        "runtime": "152 min",
+        "genre": "Action, Crime, Drama",
+        "director": "Christopher Nolan",
+        "actors": "Christian Bale, Heath Ledger",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster4.jpg",
+        "imdb": 6,
+        "type": "movie"
+    }
+]
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 32,
+        "title": "The Shawshank Redemption",
+        "year": "1994",
+        "released": "1994-10-14",
+        "runtime": "142 min",
+        "genre": "Drama",
+        "director": "Frank Darabont",
+        "actors": "Tim Robbins, Morgan Freeman",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster1.jpg",
+        "imdb": 9.8,
+        "type": "movie"
+    },
+    {
+        "uid": 28,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    },
+    {
+        "uid": 33,
+        "title": "The Godfather",
+        "year": "1972",
+        "released": "1972-03-24",
+        "runtime": "175 min",
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "actors": "Marlon Brando, Al Pacino",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster2.jpg",
+        "imdb": 10,
+        "type": "movie"
+    }
+]
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: [
+    {
+        "uid": 37,
+        "title": "Test movie",
+        "year": "2023",
+        "released": "2023-07-06",
+        "runtime": "152 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    },
+    {
+        "uid": 38,
+        "title": "Test movie",
+        "year": "2023",
+        "released": "2023-07-06",
+        "runtime": "152 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    },
+    {
+        "uid": 39,
+        "title": "Test movie",
+        "year": "2023",
+        "released": "2023-07-06",
+        "runtime": "152 min",
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "actors": "Tom Hanks, Robin Wright",
+        "country": "USA",
+        "poster": "https:\/\/example.com\/poster5.jpg",
+        "imdb": 88,
+        "type": "movie"
+    }
+]
+
+

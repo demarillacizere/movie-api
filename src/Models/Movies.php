@@ -48,6 +48,35 @@ class Movies extends A_Model
         return $result;
     }
 
+    public function findByNumberPerPage($numberPerPage): array
+    {
+        $sql = "SELECT * FROM " . $this->dbTableName . " LIMIT ?";
+        try {
+            $stm = $this->getPdo()->prepare($sql);
+            $stm->execute([$numberPerPage]);
+
+            // Fetch the record as an associative array
+            $movies = $stm->fetchAll();
+        } catch (\PDOException $exception) {
+            throw $exception;
+        }
+        return $movies;
+    }
+
+    public function findByNumberPerPageAndSort($numberPerPage, $fieldToSort): array
+    {
+        $sql = "SELECT * FROM " . $this->dbTableName . " ORDER BY $fieldToSort LIMIT ?";
+        try {
+            $stm = $this->getPdo()->prepare($sql);
+            $stm->execute([$numberPerPage]);
+
+            // Fetch the record as an associative array
+            $movies = $stm->fetchAll();
+        } catch (\PDOException $exception) {
+            throw $exception;
+        }
+        return $movies;
+    }
     function insert(array $data): int
     {
         $sql = "INSERT INTO " . $this->dbTableName . " (title, year, released, runtime, genre, director, actors, country, poster, imdb, type) VALUES (?,?,?,?,?,?,?,?,?,?,?)";
