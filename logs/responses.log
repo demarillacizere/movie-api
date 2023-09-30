@@ -396,3 +396,200 @@ BODY: [
 ]
 
 
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
+
+
+STATUS CODE: 200
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"openapi":"3.0.0","info":{"title":"Blog API","contact":{"email":"hennadii.shvedko@jagaad.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 200
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
+
+
+STATUS CODE: 200
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
+
+
+STATUS CODE: 200
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
+
+
+STATUS CODE: 200
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+
+STATUS CODE: 200
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
+
+
+STATUS CODE: 200
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
+
+
+STATUS CODE: 200
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
+
+
+STATUS CODE: 200
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
+
+
+STATUS CODE: 404
+HEADERS: {"content-type":["application\/json"]}
+BODY: {"status":404,"message":"not found"}
+
+

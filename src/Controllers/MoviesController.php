@@ -17,10 +17,10 @@ use MovieApi\Models\RequestValidator;
 
 /**
  * @OA\Info(
- *   title="Blog API",
+ *   title="Movie API",
  *   version="1.0.0",
  *   @OA\Contact(
- *     email="hennadii.shvedko@jagaad.com"
+ *     email="izered3@gmail.com"
  *   )
  * )
  */
@@ -125,7 +125,7 @@ class MoviesController extends A_Controller
             ]
                     
             );
-        } catch (AssertionFailedException $e) {
+        } catch (\InvalidArgumentException $e) {
             $responseData = [
                 'code' => StatusCodeInterface::STATUS_BAD_REQUEST,
                 'message' => $e->getMessage()
@@ -209,37 +209,24 @@ class MoviesController extends A_Controller
      */
     public function updateAction(Request $request, Response $response, $args = []): ResponseInterface
     {
-        $requestBody = $this->getRequestBodyAsArray($request);
-
+        $requestBody = json_decode($request->getBody(), true);
         $id = $args['id'];
-        $title = filter_var($requestBody['title'], FILTER_SANITIZE_STRING | FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-        $year = filter_var($requestBody['year'], FILTER_SANITIZE_NUMBER_INT);
-        $released = filter_var($requestBody['released'], FILTER_SANITIZE_NUMBER_INT);
-        $runtime = filter_var($requestBody['runtime'], FILTER_SANITIZE_NUMBER_INT);
-        $genre = filter_var($requestBody['genre'], FILTER_SANITIZE_NUMBER_INT);
-        $director = filter_var($requestBody['director'], FILTER_SANITIZE_NUMBER_INT);
-        $actors = filter_var($requestBody['actors'], FILTER_SANITIZE_NUMBER_INT);
-        $country = filter_var($requestBody['country'], FILTER_SANITIZE_NUMBER_INT);
-        $poster = filter_var($requestBody['poster'], FILTER_SANITIZE_STRING | FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-        $imdb = filter_var($requestBody['imdb'], FILTER_SANITIZE_NUMBER_INT);
-        $type = filter_var($requestBody['type'], FILTER_SANITIZE_NUMBER_INT);
-        
-
+        $validatedData = RequestValidator::validateMovieData($requestBody);
         $movies = new Movies($this->container);
         try {
             $movies->update(
                 [
-                    $title,
-                    $year,
-                    $released,
-                    $runtime,
-                    $genre,
-                    $director,
-                    $actors,
-                    $country,
-                    $poster,
-                    $imdb,
-                    $type,
+                    $validatedData['title'],
+                    $validatedData['year'],
+                    $validatedData['released'],
+                    $validatedData['runtime'],
+                    $validatedData['genre'],
+                    $validatedData['director'],
+                    $validatedData['actors'],
+                    $validatedData['country'],
+                    $validatedData['poster'],
+                    $validatedData['imdb'],
+                    $validatedData['type'],
                     $id
                 ]
             );
