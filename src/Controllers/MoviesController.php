@@ -63,7 +63,7 @@ class MoviesController extends A_Controller
      *     @OA\RequestBody(
      *          description="Input data format",
      *          @OA\MediaType(
-     *              mediaType="multipart/form-data",
+     *              mediaType="json",
      *              @OA\Schema(
      *                  type="object",
      *                  @OA\Property(
@@ -77,13 +77,38 @@ class MoviesController extends A_Controller
      *                      type="integer",
      *                  ),
      *                  @OA\Property(
-     *                      property="release",
+     *                      property="released",
      *                      description="Date of release of the movie",
      *                      type="string",
      *                  ),
      *                  @OA\Property(
+     *                      property="runtime",
+     *                      description="Run time of the movie in minutes",
+     *                      type="integer",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="genre",
+     *                      description="The genre of the movie",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="director",
+     *                      description="The director the movie poster",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="actors",
+     *                      description="Actors in the movie",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="country",
+     *                      description="The country of the movie",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
      *                      property="poster",
-     *                      description="Image URL of the movie poster",
+     *                      description="URL of the movie poster",
      *                      type="string",
      *                  ),
      *                  @OA\Property(
@@ -91,16 +116,21 @@ class MoviesController extends A_Controller
      *                      description="Imdb rating of the movie",
      *                      type="float",
      *                  ),
+     *                  @OA\Property(
+     *                      property="type",
+     *                      description="Type of the movie",
+     *                      type="string",
+     *                  ),
      *              ),
      *          ),
      *      ),
      *     @OA\Response(
      *          response=200,
-     *          description="movie has been created successfully",
+     *          description="Movie has been created successfully",
      *      ),
      *     @OA\Response(
      *          response=400,
-     *          description="bad request",
+     *          description="Bad request",
      *      ),
      *      @OA\Response(
      *            response=500,
@@ -114,8 +144,11 @@ class MoviesController extends A_Controller
      */
     public function addAction(Request $request, Response $response): ResponseInterface
     {
-        $requestBody = json_decode($request->getBody(), true);
         try {
+            $requestBody = json_decode($request->getBody(), true);
+            if (!$requestBody) {
+                throw new \InvalidArgumentException('Invalid Input. Please check your input data types and use JSON Format');
+            }
             $validatedData = RequestValidator::PostAndPutValidation($requestBody);
             $movie = new Movies($this->container);
             $movie->insert(
@@ -138,8 +171,9 @@ class MoviesController extends A_Controller
                 'code' => StatusCodeInterface::STATUS_OK,
                 'message' => 'Movie has been added'
             ];
-    
+
             return $this->render($responseData, $response);
+
         } catch (\InvalidArgumentException $e) {
             $responseData = [
                 'code' => StatusCodeInterface::STATUS_BAD_REQUEST,
@@ -156,7 +190,7 @@ class MoviesController extends A_Controller
             return $this->render($responseData, $response);
         }
 
-        
+
     }
 
     /**
@@ -176,42 +210,77 @@ class MoviesController extends A_Controller
      *     @OA\RequestBody(
      *           description="Input data format",
      *           @OA\MediaType(
-     *               mediaType="multipart/form-data",
+     *               mediaType="json",
      *               @OA\Schema(
      *                   type="object",
-     *                   @OA\Property(
-     *                       property="title",
-     *                       description="title of new movie",
-     *                       type="string",
-     *                   ),
-     *                   @OA\Property(
-     *                       property="authorId",
-     *                       description="ID of author of new movie",
-     *                       type="integer",
-     *                   ),
-     *                   @OA\Property(
-     *                       property="img",
-     *                       description="Image URL of new movie",
-     *                       type="string",
-     *                   ),
-     *                   @OA\Property(
-     *                       property="content",
-     *                       description="Content of new movie",
-     *                       type="string",
-     *                   ),
+     *                  @OA\Property(
+     *                      property="title",
+     *                      description="title of the movie",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="year",
+     *                      description="Release year for the movie",
+     *                      type="integer",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="released",
+     *                      description="Date of release of the movie",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="runtime",
+     *                      description="Run time of the movie in minutes",
+     *                      type="integer",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="genre",
+     *                      description="The genre of the movie",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="director",
+     *                      description="The director the movie poster",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="actors",
+     *                      description="Actors in the movie",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="country",
+     *                      description="The country of the movie",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="poster",
+     *                      description="URL of the movie poster",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="imdb",
+     *                      description="Imdb rating of the movie",
+     *                      type="float",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="type",
+     *                      description="Type of the movie",
+     *                      type="string",
+     *                  ),
      *               ),
      *           ),
      *       ),
      * @OA\Response(
      *           response=200,
-     *           description="Movie has been added successfully",
+     *           description="Movie has been updated successfully",
      *       ),
      * @OA\Response(
      *           response=400,
-     *           description="bad request",
+     *           description="Bad request",
      *       ),
      *     @OA\Response(
-     *                response=404,
+     *            response=404,
      *            description="Movie not found",
      *        ),
      *     @OA\Response(
@@ -226,10 +295,13 @@ class MoviesController extends A_Controller
      */
     public function updateAction(Request $request, Response $response, $args = []): ResponseInterface
     {
-        $requestBody = json_decode($request->getBody(), true);
-        $id = $args['id'];
-        $movies = new Movies($this->container);
         try {
+            $requestBody = json_decode($request->getBody(), true);
+            if (!$requestBody) {
+                throw new \InvalidArgumentException('Invalid Input. Please check your input data types and use JSON Format');
+            }
+            $id = $args['id'];
+            $movies = new Movies($this->container);
             $validatedData = RequestValidator::PostAndPutValidation($requestBody);
             $movieUpdate = $movies->update(
                 $id,
@@ -250,7 +322,7 @@ class MoviesController extends A_Controller
             if ($movieUpdate) {
                 $responseData = [
                     'code' => StatusCodeInterface::STATUS_OK,
-                    'message' => 'Movie has been updated.'
+                    'message' => 'Movie has been updated successfully.'
                 ];
                 return $this->render($responseData, $response);
             } else {
@@ -282,8 +354,8 @@ class MoviesController extends A_Controller
 
     /**
      * @OA\Delete(
-     *     path="/v1/posts/{id}",
-     *     description="deletes a single movie from blog based on pot ID",
+     *     path="/v1/movies/{id}",
+     *     description="deletes a single movie from the database based on the ID",
      *     @OA\Parameter(
      *         description="ID of movie to delete",
      *         in="path",
@@ -304,7 +376,7 @@ class MoviesController extends A_Controller
      *        ),
      * @OA\Response(
      *                 response=404,
-     *             description="Post not found",
+     *             description="Movie not found",
      *         ),
      * @OA\Response(
      *             response=500,
@@ -340,19 +412,121 @@ class MoviesController extends A_Controller
         }
     }
 
+    /**
+     * @OA\Patch(
+     *     path="/v1/movies/{id}",
+     *     description="Partially update single movie based on movie ID",
+     *     @OA\Parameter(
+     *          description="ID of movie to update",
+     *          in="path",
+     *          name="id",
+     *          required=true,
+     *          @OA\Schema(
+     *              format="int64",
+     *              type="integer"
+     *          )
+     *      ),
+     *     @OA\RequestBody(
+     *           description="Input data format",
+     *           @OA\MediaType(
+     *               mediaType="json",
+     *               @OA\Schema(
+     *                   type="object",
+     *                  @OA\Property(
+     *                      property="title",
+     *                      description="title of the movie",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="year",
+     *                      description="Release year for the movie",
+     *                      type="integer",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="released",
+     *                      description="Date of release of the movie",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="runtime",
+     *                      description="Run time of the movie in minutes",
+     *                      type="integer",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="genre",
+     *                      description="The genre of the movie",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="director",
+     *                      description="The director the movie poster",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="actors",
+     *                      description="Actors in the movie",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="country",
+     *                      description="The country of the movie",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="poster",
+     *                      description="URL of the movie poster",
+     *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="imdb",
+     *                      description="Imdb rating of the movie",
+     *                      type="float",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="type",
+     *                      description="Type of the movie",
+     *                      type="string",
+     *                  ),
+     *               ),
+     *           ),
+     *       ),
+     * @OA\Response(
+     *           response=200,
+     *           description="Movie has been updated successfully",
+     *       ),
+     * @OA\Response(
+     *           response=400,
+     *           description="Bad request",
+     *       ),
+     *     @OA\Response(
+     *            response=404,
+     *            description="Movie not found",
+     *        ),
+     *     @OA\Response(
+     *            response=500,
+     *            description="Internal server error",
+     *        ),
+     *  )
+     * @param Request $request
+     * @param Response $response
+     * @param array $args
+     * @return ResponseInterface
+     */
     public function patchAction(Request $request, Response $response, $args = []): ResponseInterface
     {
         $id = $args['id'];
-        $requestBody = json_decode($request->getBody(), true);
-
         try {
+            $requestBody = json_decode($request->getBody(), true);
+            if (!$requestBody) {
+                throw new \InvalidArgumentException('Invalid Input. Please check your input and use JSON Format');
+            }
             $validatedData = RequestValidator::ValidateAndSanitizeFields($requestBody);
             $movie = new Movies($this->container);
             $movieUpdate = $movie->patch($id, $validatedData);
             if ($movieUpdate) {
                 $responseData = [
                     'code' => StatusCodeInterface::STATUS_OK,
-                    'message' => 'Movie has been updated.'
+                    'message' => 'Movie has been partially updated successfully.'
                 ];
                 return $this->render($responseData, $response);
             } else {
@@ -382,6 +556,34 @@ class MoviesController extends A_Controller
         }
     }
 
+    /**
+     * @OA\Get(
+     *     path="/v1/movies/{numberPerPage}",
+     *     description="gets list of {numberPerPage} existing movies",
+     *     @OA\Parameter(
+     *         description="Number of movies to display",
+     *         in="path",
+     *         name="numberPerPage",
+     *         required=true,
+     *         @OA\Schema(
+     *             format="int64",
+     *             type="integer"
+     *         )
+     *     ),
+     *     @OA\Response(
+     *         response=200,
+     *         description="Movies response"
+     *     ),
+     * @OA\Response(
+     *                 response=404,
+     *             description="Invalid input",
+     *         ),
+     * @OA\Response(
+     *             response=500,
+     *             description="Internal server error",
+     *         ),
+     *   )
+     */
     public function numberPerPageAction(Request $request, Response $response, $args = []): ResponseInterface
     {
         $numberOfMovies = $args['numberPerPage'];
@@ -390,6 +592,45 @@ class MoviesController extends A_Controller
         return $this->render($data, $response);
     }
 
+    /**
+     * @OA\Get(
+     *     path="/v1/movies/{numberPerPage}/sort/{fieldToSort}",
+     *     description="gets list of {numberPerPage} existing movies  sorted by {fieldToSort}",
+     *     @OA\Parameter(
+     *         description="Number of movies to display",
+     *         in="path",
+     *         name="numberPerPage",
+     *         required=true,
+     *         @OA\Schema(
+     *             format="int64",
+     *             type="integer"
+     *         ),
+     *    
+     *     ),
+     *    @OA\Parameter(
+     *         description="Field to use for sorting the movies",
+     *         in="path",
+     *         name="fieldToSort",
+     *         required=true,
+     *         @OA\Schema(
+     *             type="string"
+     *         ),
+     *    
+     *     ),
+     *     @OA\Response(
+     *         response=200,
+     *         description="Movies response"
+     *     ),
+     *     @OA\Response(
+     *         response=404,
+     *         description="Invalid input",
+     *     ),
+     *     @OA\Response(
+     *             response=500,
+     *             description="Internal server error",
+     *     ),
+     *   )
+     */
     public function sortedNumberPerPageAction(Request $request, Response $response, $args = []): ResponseInterface
     {
         $numberOfMovies = $args['numberPerPage'];
@@ -408,14 +649,29 @@ class MoviesController extends A_Controller
         return $this->render($data, $response);
     }
 
-    public function fakeAction(Request $request, Response $response, $args = []): ResponseInterface
+    /**
+     * @OA\Get(
+     *     path="/v1/movies/fill-with-sample-data",
+     *     description="Add five sample movies to the database",
+     *     @OA\Response(
+     *          response=200,
+     *          description="Sample movies have been added successfully",
+     *      ),
+     *      @OA\Response(
+     *          response=500,
+     *          description="Internal server error",
+     *      ),
+     *   )
+     * )
+     */
+    public function sampleDataAction(Request $request, Response $response, $args = []): ResponseInterface
     {
         try {
             $movies = new Movies($this->container);
             $movies->SampleData($this->container);
             $responseData = [
                 'code' => StatusCodeInterface::STATUS_OK,
-                'message' => 'Fake data has been inserted'
+                'message' => 'Sample movies have been added'
             ];
             return $this->render($responseData, $response);
         } catch (Exception $exception) {

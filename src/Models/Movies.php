@@ -242,7 +242,6 @@ class Movies extends A_Model
             ];
 
             foreach ($movieData as $data) {
-                print_r($data[0]);
                 $this->insert($data);
             }
         } catch (Exception $exception) {

@@ -27,7 +27,8 @@ class RequestValidator
             }
             if (isset($data['runtime'])) {
                 Assertion::notEmpty($data['runtime'], 'Movie Runtime is required');
-                $validatedData['runtime'] = htmlspecialchars($data['runtime']);
+                Assertion::integer($data['runtime'], 'Run time must be a number of minutes (integer)');
+                $validatedData['runtime'] = (filter_var($data['runtime'], FILTER_SANITIZE_NUMBER_INT)) . ' min';
             }
             if (isset($data['genre'])) {
                 Assertion::notEmpty($data['genre'], 'Movie Genre is required');
