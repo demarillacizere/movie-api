@@ -2,13 +2,13 @@
 
 ## Installation
 
-- Clone: `git clone ...`
-- Go to the project folder: `cd movie_api`
+- Clone: `git clone https://github.com/demarillacizere/movie-api.git`
+- Go to the project folder: `cd movie-api`
 - Install composer packages: `composer install`
-- Config the environment: `cp .evn.example .env`
+- Config the environment: `cp .env.example .env`
 - Add environment information to `.env` file
 - Set up DB
-- Run the application (dev mode): `php -S localhost:1234 -t public`
+- Run the application (dev mode): `php -S localhost:8888 -t public/`
 
 ## App Routes
 
