@@ -12,14 +12,14 @@ use PDO;
  *
  * @category
  * @package
- * @author   Hennadii Shvedko
+ * @author   Demarillac Izere
  * @licence
  * @link
  */
 final class DB
 {
     /**
-     * Connection od PDO class property
+     * Connection of PDO class property
      *
      * @var PDO|null
      */

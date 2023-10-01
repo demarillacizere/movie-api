@@ -17,4 +17,13 @@ class ExceptionController extends A_Controller
         $middleware->logResponse($response);
         return $response;
     }
+
+    public function methodNotAllowed(Request $request, Response $response)
+    {
+        $middleware = new MiddlewareAfter($this->container);
+        $payload = ['status' => 405, 'message' => 'Method not allowed'];
+        $response = new JsonResponse($payload, 405);
+        $middleware->logResponse($response);
+        return $response;
+    }
 }

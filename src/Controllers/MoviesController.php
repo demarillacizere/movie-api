@@ -2,11 +2,8 @@
 
 namespace MovieApi\Controllers;
 
-use Assert\AssertionFailedException;
-use MovieApi\Models\Content;
-use MovieApi\Models\Image;
+use Exception;
 use MovieApi\Models\Movies;
-use MovieApi\Models\Title;
 use Fig\Http\Message\StatusCodeInterface;
 use Laminas\Diactoros\Response\JsonResponse;
 use OpenApi\Annotations as OA;
@@ -14,6 +11,7 @@ use Psr\Http\Message\ResponseInterface;
 use Slim\Psr7\Request;
 use Slim\Psr7\Response;
 use MovieApi\Models\RequestValidator;
+use DI\NotFoundException;
 
 /**
  * @OA\Info(
@@ -44,9 +42,18 @@ class MoviesController extends A_Controller
      */
     public function indexAction(Request $request, Response $response): ResponseInterface
     {
-        $movies = new Movies($this->container);
-        $data = $movies->findAll();
-        return $this->render($data, $response);
+        try {
+            $movies = new Movies($this->container);
+            $data = $movies->findAll();
+            return $this->render($data, $response);
+        } catch (Exception $e) {
+            $responseData = [
+                'code' => StatusCodeInterface::STATUS_INTERNAL_SERVER_ERROR,
+                'message' => $e->getMessage()
+            ];
+            $response = new JsonResponse($responseData, StatusCodeInterface::STATUS_INTERNAL_SERVER_ERROR);
+            return $this->render($responseData, $response);
+        }
     }
 
     /**
@@ -65,19 +72,24 @@ class MoviesController extends A_Controller
      *                      type="string",
      *                  ),
      *                  @OA\Property(
-     *                      property="authorId",
-     *                      description="ID of author of new movie",
+     *                      property="year",
+     *                      description="Release year for the movie",
      *                      type="integer",
      *                  ),
      *                  @OA\Property(
-     *                      property="img",
-     *                      description="Image URL of new movie",
+     *                      property="release",
+     *                      description="Date of release of the movie",
      *                      type="string",
      *                  ),
      *                  @OA\Property(
-     *                      property="content",
-     *                      description="Content of new movie",
+     *                      property="poster",
+     *                      description="Image URL of the movie poster",
      *                      type="string",
+     *                  ),
+     *                  @OA\Property(
+     *                      property="imdb",
+     *                      description="Imdb rating of the movie",
+     *                      type="float",
      *                  ),
      *              ),
      *          ),
@@ -104,27 +116,30 @@ class MoviesController extends A_Controller
     {
         $requestBody = json_decode($request->getBody(), true);
         try {
-            // Use the RequestValidator class to validate and sanitize the data
             $validatedData = RequestValidator::PostAndPutValidation($requestBody);
-    
-            // If all assertions pass and data is sanitized, proceed to use it
-            // For example, you can pass it to your model or database operation
             $movie = new Movies($this->container);
-            $movie->insert([
-                $validatedData['title'],
-                $validatedData['year'],
-                $validatedData['released'],
-                $validatedData['runtime'],
-                $validatedData['genre'],
-                $validatedData['director'],
-                $validatedData['actors'],
-                $validatedData['country'],
-                $validatedData['poster'],
-                $validatedData['imdb'],
-                $validatedData['type'],
-            ]
-                    
+            $movie->insert(
+                [
+                    $validatedData['title'],
+                    $validatedData['year'],
+                    $validatedData['released'],
+                    $validatedData['runtime'],
+                    $validatedData['genre'],
+                    $validatedData['director'],
+                    $validatedData['actors'],
+                    $validatedData['country'],
+                    $validatedData['poster'],
+                    $validatedData['imdb'],
+                    $validatedData['type'],
+                ]
+
             );
+            $responseData = [
+                'code' => StatusCodeInterface::STATUS_OK,
+                'message' => 'Movie has been added'
+            ];
+    
+            return $this->render($responseData, $response);
         } catch (\InvalidArgumentException $e) {
             $responseData = [
                 'code' => StatusCodeInterface::STATUS_BAD_REQUEST,
@@ -132,20 +147,22 @@ class MoviesController extends A_Controller
             ];
             $response = new JsonResponse($responseData, StatusCodeInterface::STATUS_BAD_REQUEST);
             return $this->render($responseData, $response);
+        } catch (Exception $e) {
+            $responseData = [
+                'code' => StatusCodeInterface::STATUS_INTERNAL_SERVER_ERROR,
+                'message' => $e->getMessage()
+            ];
+            $response = new JsonResponse($responseData, StatusCodeInterface::STATUS_INTERNAL_SERVER_ERROR);
+            return $this->render($responseData, $response);
         }
 
-        $responseData = [
-            'code' => StatusCodeInterface::STATUS_OK,
-            'message' => 'Movie has been added'
-        ];
-
-        return $this->render($responseData, $response);
+        
     }
 
     /**
      * @OA\Put(
-     *     path="/v1/posts/{id}",
-     *     description="update a single movie from blog based on movie ID",
+     *     path="/v1/movies/{id}",
+     *     description="update a single movie based on movie ID",
      *     @OA\Parameter(
      *          description="ID of movie to update",
      *          in="path",
@@ -187,7 +204,7 @@ class MoviesController extends A_Controller
      *       ),
      * @OA\Response(
      *           response=200,
-     *           description="movie has been created successfully",
+     *           description="Movie has been added successfully",
      *       ),
      * @OA\Response(
      *           response=400,
@@ -195,7 +212,7 @@ class MoviesController extends A_Controller
      *       ),
      *     @OA\Response(
      *                response=404,
-     *            description="Post not found",
+     *            description="Movie not found",
      *        ),
      *     @OA\Response(
      *            response=500,
@@ -214,7 +231,8 @@ class MoviesController extends A_Controller
         $movies = new Movies($this->container);
         try {
             $validatedData = RequestValidator::PostAndPutValidation($requestBody);
-            $movies->update(
+            $movieUpdate = $movies->update(
+                $id,
                 [
                     $validatedData['title'],
                     $validatedData['year'],
@@ -226,25 +244,40 @@ class MoviesController extends A_Controller
                     $validatedData['country'],
                     $validatedData['poster'],
                     $validatedData['imdb'],
-                    $validatedData['type'],
-                    $id
+                    $validatedData['type']
                 ]
             );
-        } catch (AssertionFailedException $e) {
+            if ($movieUpdate) {
+                $responseData = [
+                    'code' => StatusCodeInterface::STATUS_OK,
+                    'message' => 'Movie has been updated.'
+                ];
+                return $this->render($responseData, $response);
+            } else {
+                throw new Exception("Something went wrong. Movie not updated.");
+            }
+        } catch (\InvalidArgumentException $e) {
             $responseData = [
                 'code' => StatusCodeInterface::STATUS_BAD_REQUEST,
                 'message' => $e->getMessage()
             ];
             $response = new JsonResponse($responseData, StatusCodeInterface::STATUS_BAD_REQUEST);
             return $this->render($responseData, $response);
+        } catch (NotFoundException $e) {
+            $responseData = [
+                'code' => StatusCodeInterface::STATUS_NOT_FOUND,
+                'message' => "Movie with id $id is not found"
+            ];
+            $response = new JsonResponse($responseData, StatusCodeInterface::STATUS_NOT_FOUND);
+            return $this->render($responseData, $response);
+        } catch (Exception $e) {
+            $responseData = [
+                'code' => StatusCodeInterface::STATUS_INTERNAL_SERVER_ERROR,
+                'message' => $e->getMessage()
+            ];
+            $response = new JsonResponse($responseData, StatusCodeInterface::STATUS_INTERNAL_SERVER_ERROR);
+            return $this->render($responseData, $response);
         }
-
-        $responseData = [
-            'code' => StatusCodeInterface::STATUS_OK,
-            'message' => 'Movie has been updated.'
-        ];
-
-        return $this->render($responseData, $response);
     }
 
     /**
@@ -282,13 +315,29 @@ class MoviesController extends A_Controller
     public function deleteAction(Request $request, Response $response, $args = []): ResponseInterface
     {
         $id = $args['id'];
-        $movies = new Movies($this->container);
-        $movies->delete($id);
-        $responseData = [
-            'code' => StatusCodeInterface::STATUS_OK,
-            'message' => 'Movie has been deleted.'
-        ];
-        return $this->render($responseData, $response);
+        try {
+            $movies = new Movies($this->container);
+            $movies->delete($id);
+            $responseData = [
+                'code' => StatusCodeInterface::STATUS_OK,
+                'message' => 'Movie has been deleted.'
+            ];
+            return $this->render($responseData, $response);
+        } catch (NotFoundException $e) {
+            $responseData = [
+                'code' => StatusCodeInterface::STATUS_NOT_FOUND,
+                'message' => "Movie with id $id is not found"
+            ];
+            $response = new JsonResponse($responseData, StatusCodeInterface::STATUS_NOT_FOUND);
+            return $this->render($responseData, $response);
+        } catch (Exception $e) {
+            $responseData = [
+                'code' => StatusCodeInterface::STATUS_INTERNAL_SERVER_ERROR,
+                'message' => $e->getMessage()
+            ];
+            $response = new JsonResponse($responseData, StatusCodeInterface::STATUS_INTERNAL_SERVER_ERROR);
+            return $this->render($responseData, $response);
+        }
     }
 
     public function patchAction(Request $request, Response $response, $args = []): ResponseInterface
@@ -299,13 +348,37 @@ class MoviesController extends A_Controller
         try {
             $validatedData = RequestValidator::ValidateAndSanitizeFields($requestBody);
             $movie = new Movies($this->container);
-            $updatedMovie = $movie->patch($id, $validatedData);
-            $response->getBody()->write(json_encode(['message' => 'Movie updated successfully', 'data' => $updatedMovie]));
-            return $response->withHeader('Content-Type', 'application/json')->withStatus(200);
-        } catch (\PDOException $exception) {
-            // Handle database errors and return an error response
-            $response->getBody()->write(json_encode(['error' => $exception->getMessage()]));
-            return $response->withHeader('Content-Type', 'application/json')->withStatus(500);
+            $movieUpdate = $movie->patch($id, $validatedData);
+            if ($movieUpdate) {
+                $responseData = [
+                    'code' => StatusCodeInterface::STATUS_OK,
+                    'message' => 'Movie has been updated.'
+                ];
+                return $this->render($responseData, $response);
+            } else {
+                throw new Exception("Something went wrong.");
+            }
+        } catch (\InvalidArgumentException $e) {
+            $responseData = [
+                'code' => StatusCodeInterface::STATUS_BAD_REQUEST,
+                'message' => $e->getMessage()
+            ];
+            $response = new JsonResponse($responseData, StatusCodeInterface::STATUS_BAD_REQUEST);
+            return $this->render($responseData, $response);
+        } catch (NotFoundException $e) {
+            $responseData = [
+                'code' => StatusCodeInterface::STATUS_NOT_FOUND,
+                'message' => "Movie with id $id is not found"
+            ];
+            $response = new JsonResponse($responseData, StatusCodeInterface::STATUS_NOT_FOUND);
+            return $this->render($responseData, $response);
+        } catch (Exception $e) {
+            $responseData = [
+                'code' => StatusCodeInterface::STATUS_INTERNAL_SERVER_ERROR,
+                'message' => $e->getMessage()
+            ];
+            $response = new JsonResponse($responseData, StatusCodeInterface::STATUS_INTERNAL_SERVER_ERROR);
+            return $this->render($responseData, $response);
         }
     }
 
@@ -321,6 +394,15 @@ class MoviesController extends A_Controller
     {
         $numberOfMovies = $args['numberPerPage'];
         $fieldToSort = $args['fieldToSort'];
+        $allowedFields = ['uid', 'title', 'year', 'released', 'genre', 'type', 'imdb', 'actors', 'director', 'country', 'poster', 'runtime'];
+        if (!in_array($fieldToSort, $allowedFields)) {
+            $responseStatus = [
+                'status' => StatusCodeInterface::STATUS_BAD_REQUEST,
+                'message' => 'Invalid field to sort'
+            ];
+            return $this->render($responseStatus, $response);
+        }
+
         $movies = new Movies($this->container);
         $data = $movies->findByNumberPerPageAndSort($numberOfMovies, $fieldToSort);
         return $this->render($data, $response);
@@ -328,13 +410,20 @@ class MoviesController extends A_Controller
 
     public function fakeAction(Request $request, Response $response, $args = []): ResponseInterface
     {
-        $movies = new Movies($this->container);
-        $movies->SampleData($this->container);
-
-        $responseData = [
-            'code' => StatusCodeInterface::STATUS_OK,
-            'message' => 'fake data has been inserted'
-        ];
-        return $this->render($responseData, $response);
+        try {
+            $movies = new Movies($this->container);
+            $movies->SampleData($this->container);
+            $responseData = [
+                'code' => StatusCodeInterface::STATUS_OK,
+                'message' => 'Fake data has been inserted'
+            ];
+            return $this->render($responseData, $response);
+        } catch (Exception $exception) {
+            $responseData = [
+                'code' => StatusCodeInterface::STATUS_INTERNAL_SERVER_ERROR,
+                'message' => 'An error occurred: ' . $exception->getMessage()
+            ];
+            return $this->render($responseData, $response);
+        }
     }
 }

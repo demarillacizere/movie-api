@@ -3,8 +3,8 @@
 namespace MovieApi\Models;
 
 use DI\Container;
+use DI\NotFoundException;
 use Exception;
-use Faker\Factory;
 
 class Movies extends A_Model
 {
@@ -26,26 +26,33 @@ class Movies extends A_Model
     function findAll(): array
     {
         $sql = "SELECT * FROM " . $this->dbTableName;
-        $stm = $this->getPdo()->prepare($sql);
-        $stm->execute();
-        $posts = $stm->fetchAll();
-        return $posts;
+        try {
+            $stm = $this->getPdo()->prepare($sql);
+            $stm->execute();
+            $posts = $stm->fetchAll();
+            return $posts;
+        } catch (\PDOException $exception) {
+            throw $exception;
+        }
+
     }
 
-    function findById(int $id): array
+    function findById(int $id): ?array
     {
         $sql = "SELECT * FROM " . $this->dbTableName . " WHERE uid = ?";
 
         try {
             $stm = $this->getPdo()->prepare($sql);
             $stm->execute([$id]);
-
-            // Fetch the record as an associative array
             $result = $stm->fetch();
+
+            if ($result === false) {
+                return null;
+            }
+            return $result;
         } catch (\PDOException $exception) {
-            return [];
+            throw $exception;
         }
-        return $result;
     }
 
     public function findByNumberPerPage($numberPerPage): array
@@ -54,8 +61,6 @@ class Movies extends A_Model
         try {
             $stm = $this->getPdo()->prepare($sql);
             $stm->execute([$numberPerPage]);
-
-            // Fetch the record as an associative array
             $movies = $stm->fetchAll();
         } catch (\PDOException $exception) {
             throw $exception;
@@ -80,34 +85,53 @@ class Movies extends A_Model
     function insert(array $data): int
     {
         $sql = "INSERT INTO " . $this->dbTableName . " (title, year, released, runtime, genre, director, actors, country, poster, imdb, type) VALUES (?,?,?,?,?,?,?,?,?,?,?)";
-        $stm = $this->getPdo()->prepare($sql);
-        $stm->execute(
-            [
-                $data[0],
-                $data[1],
-                $data[2],
-                $data[3],
-                $data[4],
-                $data[5],
-                $data[6],
-                $data[7],
-                $data[8],
-                $data[9],
-                $data[10]
-            ]
-        );
-        return $this->getPdo()->lastInsertId();
+        try {
+            $stm = $this->getPdo()->prepare($sql);
+            $stm->execute(
+                [
+                    $data[0],
+                    $data[1],
+                    $data[2],
+                    $data[3],
+                    $data[4],
+                    $data[5],
+                    $data[6],
+                    $data[7],
+                    $data[8],
+                    $data[9],
+                    $data[10]
+                ]
+            );
+            return $this->getPdo()->lastInsertId();
+        } catch (\PDOException $exception) {
+            throw $exception;
+        }
     }
-    function update(array $data): bool
+    function update($id, array $data): bool
     {
+        $existingMovie = $this->findById($id);
+
+        if ($existingMovie === null) {
+            throw new NotFoundException;
+        }
         $sql = "UPDATE " . $this->dbTableName . " SET title=?, year=?, released=?, runtime=?, genre=?, director=?, actors=?, country=?, poster=?, imdb=?, type=? WHERE uid=?";
-        $stm = $this->getPdo()->prepare($sql);
-        $stm->execute([$data[0], $data[1], $data[2], $data[3], $data[4], $data[5], $data[6], $data[7], $data[8], $data[9], $data[10],$data[11]]);
-        return true;
+        try {
+            $stm = $this->getPdo()->prepare($sql);
+            $stm->execute([$data[0], $data[1], $data[2], $data[3], $data[4], $data[5], $data[6], $data[7], $data[8], $data[9], $data[10], $id]);
+            $rowCount = $stm->rowCount();
+            return $rowCount > 0; // Return true if any rows were affected, false otherwise
+        } catch (\PDOException $exception) {
+            throw $exception;
+        }
     }
 
-    public function patch($movieId, $data):array
+    function patch($id, $data): bool
     {
+        $existingMovie = $this->findById($id);
+
+        if ($existingMovie === null) {
+            throw new NotFoundException;
+        }
         $sql = "UPDATE " . $this->dbTableName . " SET ";
         $params = [];
         foreach ($data as $field => $value) {
@@ -117,13 +141,12 @@ class Movies extends A_Model
         // Remove the trailing comma and add the WHERE clause
         $sql = rtrim($sql, ', ') . " WHERE uid = ?";
         // Add the movie ID to the parameters
-        $params[] = $movieId;
+        $params[] = $id;
         try {
             $stm = $this->getPdo()->prepare($sql);
             $stm->execute($params);
-            // Fetch the updated movie data and return it
-            $updatedMovie = $this->findById($movieId);
-            return $updatedMovie;
+            $rowCount = $stm->rowCount();
+            return $rowCount > 0; // Return true if any rows were affected, false otherwise
         } catch (\PDOException $exception) {
             throw $exception;
         }
@@ -131,12 +154,17 @@ class Movies extends A_Model
 
     function delete(int $id): bool
     {
+        $existingMovie = $this->findById($id);
+
+        if ($existingMovie === null) {
+            throw new NotFoundException;
+        }
         $sql = "DELETE FROM " . $this->dbTableName . " WHERE uid=?";
         try {
             $stm = $this->getPdo()->prepare($sql);
             $stm->execute([$id]);
         } catch (\PDOException $exception) {
-            return false;
+            throw $exception;
         }
 
         return true;

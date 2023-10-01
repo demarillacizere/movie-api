@@ -2,9 +2,6 @@
 namespace MovieApi\Models;
 
 use Assert\Assertion;
-use Assert\AssertionFailedException;
-use Laminas\Diactoros\Response\JsonResponse;
-use Fig\Http\Message\StatusCodeInterface;
 
 class RequestValidator
 {
@@ -19,20 +16,21 @@ class RequestValidator
 
             }
             if (isset($data['year'])) {
+                Assertion::notEmpty($data['year'], 'Release year is required');
                 Assertion::integer($data['year'], 'Year must be an integer');
                 $validatedData['year'] = (filter_var($data['year'], FILTER_SANITIZE_NUMBER_INT));
             }
 
             if (isset($data['released'])) {
-                Assertion::string($data['released'], 'Y-m-d', 'Invalid date format for released');
+                Assertion::notEmpty($data['released'], 'The release date of the movie is required');
                 $validatedData['released'] = htmlspecialchars($data['released']);
             }
             if (isset($data['runtime'])) {
-                Assertion::notEmpty($data['runtime'], 'Run time is required');
+                Assertion::notEmpty($data['runtime'], 'Movie Runtime is required');
                 $validatedData['runtime'] = htmlspecialchars($data['runtime']);
             }
             if (isset($data['genre'])) {
-                Assertion::notEmpty($data['genre'], 'Genre is required');
+                Assertion::notEmpty($data['genre'], 'Movie Genre is required');
                 $validatedData['genre'] = htmlspecialchars($data['genre']);
             }
 
@@ -46,12 +44,12 @@ class RequestValidator
                 $validatedData['actors'] = htmlspecialchars($data['actors']);
             }
             if (isset($data['country'])) {
-                Assertion::notEmpty($data['country'], 'Country is required');
+                Assertion::notEmpty($data['country'], 'Movie Country is required');
                 $validatedData['country'] = htmlspecialchars($data['country']);
             }
 
             if (isset($data['type'])) {
-                Assertion::notEmpty($data['type'], 'Type is required');
+                Assertion::notEmpty($data['type'], 'Movie type is required');
                 $validatedData['type'] = htmlspecialchars($data['type']);
             }
 
@@ -66,7 +64,6 @@ class RequestValidator
             }
             return $validatedData;
         } catch (\InvalidArgumentException $e) {
-            // If there's a validation error, re-throw the exception
             throw $e;
         }
     }
@@ -92,7 +89,6 @@ class RequestValidator
         }
 
     }
-
     public static function assertFieldExists(array $data, string $fieldName)
     {
         if (!isset($data[$fieldName])) {

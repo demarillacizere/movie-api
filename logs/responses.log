@@ -3,99 +3,6 @@ HEADERS: {"content-type":["application\/json"]}
 BODY: {"status":404,"message":"not found"}
 
 
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "fake data has been inserted"
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "fake data has been inserted"
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been deleted."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been deleted."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been deleted."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been added"
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been added"
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been added"
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been added"
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been added"
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been added"
-}
-
-
 STATUS CODE: 200
 HEADERS: {"Content-Type":["application\/json"]}
 BODY: [
@@ -129,157 +36,31 @@ BODY: [
     },
     {
         "uid": 30,
-        "title": "The Dark Knight",
-        "year": "2008",
-        "released": "2008-07-18",
-        "runtime": "152 min",
-        "genre": "Action, Crime, Drama",
-        "director": "Christopher Nolan",
-        "actors": "Christian Bale, Heath Ledger",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster4.jpg",
-        "imdb": 6,
-        "type": "movie"
-    },
-    {
-        "uid": 31,
-        "title": "Forrest Gump",
-        "year": "1994",
-        "released": "1994-07-06",
-        "runtime": "142 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 8.8,
-        "type": "movie"
-    },
-    {
-        "uid": 32,
-        "title": "The Shawshank Redemption",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "142 min",
-        "genre": "Drama",
-        "director": "Frank Darabont",
-        "actors": "Tim Robbins, Morgan Freeman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster1.jpg",
-        "imdb": 9.8,
-        "type": "movie"
-    },
-    {
-        "uid": 33,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    },
-    {
-        "uid": 34,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    },
-    {
-        "uid": 35,
-        "title": "The Dark Knight",
-        "year": "2008",
-        "released": "2008-07-18",
-        "runtime": "152 min",
-        "genre": "Action, Crime, Drama",
-        "director": "Christopher Nolan",
-        "actors": "Christian Bale, Heath Ledger",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster4.jpg",
-        "imdb": 6,
-        "type": "movie"
-    },
-    {
-        "uid": 36,
-        "title": "Forrest Gump",
-        "year": "1994",
-        "released": "1994-07-06",
-        "runtime": "142 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 8.8,
-        "type": "movie"
-    },
-    {
-        "uid": 37,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 38,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 39,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
+        "title": "Test movie updated by patch lets see if it works at the final last trial!!",
+        "year": "1917",
+        "released": "202343",
+        "runtime": "457 min",
+        "genre": "n",
+        "director": "n",
+        "actors": "n",
+        "country": "n",
+        "poster": "http:\/\/google.com",
+        "imdb": 7.16,
+        "type": "n"
     },
     {
         "uid": 40,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
+        "title": " patch lets see if it works at the final last trial!!",
+        "year": "1917",
+        "released": "202343",
+        "runtime": "457 min",
+        "genre": "n",
+        "director": "n",
+        "actors": "n",
+        "country": "n",
+        "poster": "http:\/\/google.com",
+        "imdb": 7.16,
+        "type": "n"
     },
     {
         "uid": 41,
@@ -367,818 +148,9 @@ BODY: [
     },
     {
         "uid": 47,
-        "title": "Test movie~``",
-        "year": "2021",
-        "released": "2023-07-06",
-        "runtime": "123 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 48,
-        "title": "Test movie~``",
-        "year": "2021",
-        "released": "2023-07-06",
-        "runtime": "123 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    }
-]
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "code": 200,
-    "message": "Movie has been updated."
-}
-
-
-STATUS CODE: 200
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"openapi":"3.0.0","info":{"title":"Blog API","contact":{"email":"hennadii.shvedko@jagaad.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 200
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
-
-
-STATUS CODE: 200
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
-
-
-STATUS CODE: 200
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
-
-
-STATUS CODE: 200
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 200
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
-
-
-STATUS CODE: 200
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
-
-
-STATUS CODE: 200
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
-
-
-STATUS CODE: 200
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"openapi":"3.0.0","info":{"title":"Movie API","contact":{"email":"izered3@gmail.com"},"version":"1.0.0"},"paths":{"/v1/posts":{"get":{"description":"Returns all posts","operationId":"4c1fbdc7d27d54a4d00a8869b86900ce","responses":{"200":{"description":"posts response"},"500":{"description":"Internal server error"}}},"post":{"description":"Add a movie","operationId":"3407cc79de6331c9afe9f406fe362937","requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of the movie","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"500":{"description":"Internal server error"}}}},"/v1/posts/{id}":{"put":{"description":"update a single post from blog based on post ID","operationId":"27d6ed1caf7a1268d4da1176b48b257f","parameters":[{"name":"id","in":"path","description":"ID of post to update","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"description":"Input data format","content":{"multipart/form-data":{"schema":{"properties":{"title":{"description":"title of new post","type":"string"},"authorId":{"description":"ID of author of new post","type":"integer"},"img":{"description":"Image URL of new post","type":"string"},"content":{"description":"Content of new post","type":"string"}},"type":"object"}}}},"responses":{"200":{"description":"post has been created successfully"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}},"delete":{"description":"deletes a single post from blog based on pot ID","operationId":"f26e86195d6dd44371363d8c1c4244f4","parameters":[{"name":"id","in":"path","description":"ID of post to delete","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"post has been deleted"},"400":{"description":"bad request"},"404":{"description":"Post not found"},"500":{"description":"Internal server error"}}}}}}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "uid": 28,
-    "title": "The Godfather",
-    "year": "1972",
-    "released": "1972-03-24",
-    "runtime": "175 min",
-    "genre": "Crime, Drama",
-    "director": "Francis Ford Coppola",
-    "actors": "Marlon Brando, Al Pacino",
-    "country": "USA",
-    "poster": "https:\/\/example.com\/poster2.jpg",
-    "imdb": 10,
-    "type": "movie"
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {
-    "uid": 28,
-    "title": "The Godfather",
-    "year": "1972",
-    "released": "1972-03-24",
-    "runtime": "175 min",
-    "genre": "Crime, Drama",
-    "director": "Francis Ford Coppola",
-    "actors": "Marlon Brando, Al Pacino",
-    "country": "USA",
-    "poster": "https:\/\/example.com\/poster2.jpg",
-    "imdb": 10,
-    "type": "movie"
-}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 28,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    }
-]
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 28,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    },
-    {
-        "uid": 29,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    },
-    {
-        "uid": 30,
-        "title": "The Dark Knight",
-        "year": "2008",
-        "released": "2008-07-18",
-        "runtime": "152 min",
-        "genre": "Action, Crime, Drama",
-        "director": "Christopher Nolan",
-        "actors": "Christian Bale, Heath Ledger",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster4.jpg",
-        "imdb": 6,
-        "type": "movie"
-    }
-]
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 28,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    },
-    {
-        "uid": 29,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    },
-    {
-        "uid": 30,
-        "title": "The Dark Knight",
-        "year": "2008",
-        "released": "2008-07-18",
-        "runtime": "152 min",
-        "genre": "Action, Crime, Drama",
-        "director": "Christopher Nolan",
-        "actors": "Christian Bale, Heath Ledger",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster4.jpg",
-        "imdb": 6,
-        "type": "movie"
-    },
-    {
-        "uid": 31,
-        "title": "Forrest Gump",
-        "year": "1994",
-        "released": "1994-07-06",
-        "runtime": "142 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 8.8,
-        "type": "movie"
-    },
-    {
-        "uid": 32,
-        "title": "The Shawshank Redemption",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "142 min",
-        "genre": "Drama",
-        "director": "Frank Darabont",
-        "actors": "Tim Robbins, Morgan Freeman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster1.jpg",
-        "imdb": 9.8,
-        "type": "movie"
-    }
-]
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 28,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    },
-    {
-        "uid": 29,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    },
-    {
-        "uid": 30,
-        "title": "The Dark Knight",
-        "year": "2008",
-        "released": "2008-07-18",
-        "runtime": "152 min",
-        "genre": "Action, Crime, Drama",
-        "director": "Christopher Nolan",
-        "actors": "Christian Bale, Heath Ledger",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster4.jpg",
-        "imdb": 6,
-        "type": "movie"
-    },
-    {
-        "uid": 31,
-        "title": "Forrest Gump",
-        "year": "1994",
-        "released": "1994-07-06",
-        "runtime": "142 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 8.8,
-        "type": "movie"
-    },
-    {
-        "uid": 32,
-        "title": "The Shawshank Redemption",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "142 min",
-        "genre": "Drama",
-        "director": "Frank Darabont",
-        "actors": "Tim Robbins, Morgan Freeman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster1.jpg",
-        "imdb": 9.8,
-        "type": "movie"
-    },
-    {
-        "uid": 33,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    },
-    {
-        "uid": 34,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    },
-    {
-        "uid": 35,
-        "title": "The Dark Knight",
-        "year": "2008",
-        "released": "2008-07-18",
-        "runtime": "152 min",
-        "genre": "Action, Crime, Drama",
-        "director": "Christopher Nolan",
-        "actors": "Christian Bale, Heath Ledger",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster4.jpg",
-        "imdb": 6,
-        "type": "movie"
-    },
-    {
-        "uid": 36,
-        "title": "Forrest Gump",
-        "year": "1994",
-        "released": "1994-07-06",
-        "runtime": "142 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 8.8,
-        "type": "movie"
-    }
-]
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 28,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    },
-    {
-        "uid": 29,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    },
-    {
-        "uid": 30,
-        "title": "The Dark Knight",
-        "year": "2008",
-        "released": "2008-07-18",
-        "runtime": "152 min",
-        "genre": "Action, Crime, Drama",
-        "director": "Christopher Nolan",
-        "actors": "Christian Bale, Heath Ledger",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster4.jpg",
-        "imdb": 6,
-        "type": "movie"
-    },
-    {
-        "uid": 31,
-        "title": "Forrest Gump",
-        "year": "1994",
-        "released": "1994-07-06",
-        "runtime": "142 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 8.8,
-        "type": "movie"
-    },
-    {
-        "uid": 32,
-        "title": "The Shawshank Redemption",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "142 min",
-        "genre": "Drama",
-        "director": "Frank Darabont",
-        "actors": "Tim Robbins, Morgan Freeman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster1.jpg",
-        "imdb": 9.8,
-        "type": "movie"
-    },
-    {
-        "uid": 33,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    },
-    {
-        "uid": 34,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    },
-    {
-        "uid": 35,
-        "title": "The Dark Knight",
-        "year": "2008",
-        "released": "2008-07-18",
-        "runtime": "152 min",
-        "genre": "Action, Crime, Drama",
-        "director": "Christopher Nolan",
-        "actors": "Christian Bale, Heath Ledger",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster4.jpg",
-        "imdb": 6,
-        "type": "movie"
-    },
-    {
-        "uid": 36,
-        "title": "Forrest Gump",
-        "year": "1994",
-        "released": "1994-07-06",
-        "runtime": "142 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 8.8,
-        "type": "movie"
-    },
-    {
-        "uid": 37,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 38,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 39,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 40,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 41,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 42,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 43,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 44,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 45,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 46,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 47,
-        "title": "Test movie updated",
-        "year": "2021",
-        "released": "2023-07-06",
+        "title": "Test movie updated by patch lets see if it works at the last trial!!",
+        "year": "2020",
+        "released": "4\/5\/2023",
         "runtime": "123 min",
         "genre": "Drama, Romance",
         "director": "Robert Zemeckis",
@@ -1201,514 +173,131 @@ BODY: [
         "poster": "https:\/\/example.com\/poster5.jpg",
         "imdb": 88,
         "type": "movie"
+    },
+    {
+        "uid": 54,
+        "title": " Now it&#039;s number 2 lets see if it works at the final last trial!!",
+        "year": "1917",
+        "released": "202343",
+        "runtime": "457 min",
+        "genre": "n",
+        "director": "n",
+        "actors": "n",
+        "country": "n",
+        "poster": "http:\/\/google.com",
+        "imdb": 7.16,
+        "type": "n"
+    },
+    {
+        "uid": 55,
+        "title": " Now it&#039;s number 2 lets see if it works at the final last trial!!",
+        "year": "1917",
+        "released": "202343",
+        "runtime": "457 min",
+        "genre": "n",
+        "director": "n",
+        "actors": "n",
+        "country": "n",
+        "poster": "http:\/\/google.com",
+        "imdb": 7.16,
+        "type": "n"
+    },
+    {
+        "uid": 56,
+        "title": "updated by patch lets see if it works at the final last trial!!",
+        "year": "1917",
+        "released": "202343",
+        "runtime": "457 min",
+        "genre": "n",
+        "director": "n",
+        "actors": "n",
+        "country": "n",
+        "poster": "http:\/\/google.com",
+        "imdb": 7.16,
+        "type": "n"
+    },
+    {
+        "uid": 57,
+        "title": "updated by patch lets see if it works at the final last trial!!",
+        "year": "1917",
+        "released": "202343",
+        "runtime": "457 min",
+        "genre": "n",
+        "director": "n",
+        "actors": "n",
+        "country": "n",
+        "poster": "http:\/\/google.com",
+        "imdb": 7.16,
+        "type": "n"
+    },
+    {
+        "uid": 58,
+        "title": " patch lets see if it works at the final last trial!!",
+        "year": "1917",
+        "released": "202343",
+        "runtime": "457 min",
+        "genre": "n",
+        "director": "n",
+        "actors": "n",
+        "country": "n",
+        "poster": "http:\/\/google.com",
+        "imdb": 7.16,
+        "type": "n"
+    },
+    {
+        "uid": 59,
+        "title": " Okay number 1 lets see if it works at the final last trial!!",
+        "year": "1917",
+        "released": "202343",
+        "runtime": "457 min",
+        "genre": "n",
+        "director": "n",
+        "actors": "n",
+        "country": "n",
+        "poster": "http:\/\/google.com",
+        "imdb": 7.16,
+        "type": "n"
     }
 ]
 
 
 STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
-
-
-STATUS CODE: 404
-HEADERS: {"content-type":["application\/json"]}
-BODY: {"status":404,"message":"not found"}
+HEADERS: {"Content-Type":["application\/json"]}
+BODY: {
+    "code": 404,
+    "message": "Movie with id 60 is not found"
+}
 
 
 STATUS CODE: 200
 HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 28,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    },
-    {
-        "uid": 29,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    },
-    {
-        "uid": 30,
-        "title": "The Dark Knight",
-        "year": "2008",
-        "released": "2008-07-18",
-        "runtime": "152 min",
-        "genre": "Action, Crime, Drama",
-        "director": "Christopher Nolan",
-        "actors": "Christian Bale, Heath Ledger",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster4.jpg",
-        "imdb": 6,
-        "type": "movie"
-    }
-]
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 28,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    },
-    {
-        "uid": 29,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    },
-    {
-        "uid": 30,
-        "title": "The Dark Knight",
-        "year": "2008",
-        "released": "2008-07-18",
-        "runtime": "152 min",
-        "genre": "Action, Crime, Drama",
-        "director": "Christopher Nolan",
-        "actors": "Christian Bale, Heath Ledger",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster4.jpg",
-        "imdb": 6,
-        "type": "movie"
-    }
-]
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 28,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    },
-    {
-        "uid": 29,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    },
-    {
-        "uid": 30,
-        "title": "The Dark Knight",
-        "year": "2008",
-        "released": "2008-07-18",
-        "runtime": "152 min",
-        "genre": "Action, Crime, Drama",
-        "director": "Christopher Nolan",
-        "actors": "Christian Bale, Heath Ledger",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster4.jpg",
-        "imdb": 6,
-        "type": "movie"
-    }
-]
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 31,
-        "title": "Forrest Gump",
-        "year": "1994",
-        "released": "1994-07-06",
-        "runtime": "142 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 8.8,
-        "type": "movie"
-    },
-    {
-        "uid": 36,
-        "title": "Forrest Gump",
-        "year": "1994",
-        "released": "1994-07-06",
-        "runtime": "142 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 8.8,
-        "type": "movie"
-    },
-    {
-        "uid": 29,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    }
-]
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 31,
-        "title": "Forrest Gump",
-        "year": "1994",
-        "released": "1994-07-06",
-        "runtime": "142 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 8.8,
-        "type": "movie"
-    },
-    {
-        "uid": 36,
-        "title": "Forrest Gump",
-        "year": "1994",
-        "released": "1994-07-06",
-        "runtime": "142 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 8.8,
-        "type": "movie"
-    },
-    {
-        "uid": 29,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    }
-]
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 28,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    },
-    {
-        "uid": 33,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    },
-    {
-        "uid": 29,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    }
-]
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 29,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    },
-    {
-        "uid": 34,
-        "title": "Pulp Fiction",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "154 min",
-        "genre": "Crime, Drama",
-        "director": "Quentin Tarantino",
-        "actors": "John Travolta, Uma Thurman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster3.jpg",
-        "imdb": 5.5,
-        "type": "movie"
-    },
-    {
-        "uid": 30,
-        "title": "The Dark Knight",
-        "year": "2008",
-        "released": "2008-07-18",
-        "runtime": "152 min",
-        "genre": "Action, Crime, Drama",
-        "director": "Christopher Nolan",
-        "actors": "Christian Bale, Heath Ledger",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster4.jpg",
-        "imdb": 6,
-        "type": "movie"
-    }
-]
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 32,
-        "title": "The Shawshank Redemption",
-        "year": "1994",
-        "released": "1994-10-14",
-        "runtime": "142 min",
-        "genre": "Drama",
-        "director": "Frank Darabont",
-        "actors": "Tim Robbins, Morgan Freeman",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster1.jpg",
-        "imdb": 9.8,
-        "type": "movie"
-    },
-    {
-        "uid": 28,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    },
-    {
-        "uid": 33,
-        "title": "The Godfather",
-        "year": "1972",
-        "released": "1972-03-24",
-        "runtime": "175 min",
-        "genre": "Crime, Drama",
-        "director": "Francis Ford Coppola",
-        "actors": "Marlon Brando, Al Pacino",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster2.jpg",
-        "imdb": 10,
-        "type": "movie"
-    }
-]
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: [
-    {
-        "uid": 37,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 38,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    },
-    {
-        "uid": 39,
-        "title": "Test movie",
-        "year": "2023",
-        "released": "2023-07-06",
-        "runtime": "152 min",
-        "genre": "Drama, Romance",
-        "director": "Robert Zemeckis",
-        "actors": "Tom Hanks, Robin Wright",
-        "country": "USA",
-        "poster": "https:\/\/example.com\/poster5.jpg",
-        "imdb": 88,
-        "type": "movie"
-    }
-]
+BODY: {
+    "code": 200,
+    "message": "Movie has been updated."
+}
 
 
 STATUS CODE: 500
 HEADERS: {"Content-Type":["application\/json"]}
-BODY: {"error":"Database error"}
-
-
-STATUS CODE: 500
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {"error":"Database error"}
-
-
-STATUS CODE: 500
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {"error":{"errorInfo":["42S22",1054,"Unknown column 'id' in 'where clause'"]}}
-
-
-STATUS CODE: 500
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {"error":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'"}
+BODY: {
+    "code": 500,
+    "message": "Something went wrong. Movie not updated."
+}
 
 
 STATUS CODE: 200
 HEADERS: {"Content-Type":["application\/json"]}
-BODY: {"message":"Movie updated successfully","data":{}}
+BODY: {
+    "code": 200,
+    "message": "Movie has been deleted."
+}
 
 
-STATUS CODE: 200
+STATUS CODE: 404
 HEADERS: {"Content-Type":["application\/json"]}
-BODY: {"message":"Movie updated successfully","data":{}}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {"message":"Movie updated successfully","data":{"uid":47,"title":"Test movie updated by patch lets see if it works at the first trial!!","year":"2025","released":"2023-07-06","runtime":"123 min","genre":"Drama, Romance","director":"Robert Zemeckis","actors":"Tom Hanks, Robin Wright","country":"USA","poster":"https:\/\/example.com\/poster5.jpg","imdb":8.8,"type":"movie"}}
-
-
-STATUS CODE: 200
-HEADERS: {"Content-Type":["application\/json"]}
-BODY: {"message":"Movie updated successfully","data":{"uid":47,"title":"Test movie updated by patch lets see if it works at the last trial!!","year":"2020","released":"2023-07-06","runtime":"123 min","genre":"Drama, Romance","director":"Robert Zemeckis","actors":"Tom Hanks, Robin Wright","country":"USA","poster":"https:\/\/example.com\/poster5.jpg","imdb":8.8,"type":"movie"}}
+BODY: {
+    "code": 404,
+    "message": "Movie with id 45 is not found"
+}
 
 

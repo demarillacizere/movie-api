@@ -55,42 +55,12 @@ $errorMiddleware->setErrorHandler(
         return $controller->notFound($request, new Response());
     }
 );
+$errorMiddleware->setErrorHandler(
+    Slim\Exception\HttpMethodNotAllowedException::class,
+    function (Psr\Http\Message\ServerRequestInterface $request) use ($container) {
+        $controller = new ExceptionController($container);
+        return $controller->methodNotAllowed($request, new Response());
+    }
+);
 
 $app->run();
-
-
-
-//$app->group('/users/{id}', function (RouteCollectorProxy $group) {
-//    $group->map(['GET', 'DELETE', 'PATCH', 'PUT'], '', function ($request, $response, array $args) {
-//        // Find, delete, patch or replace user identified by $args['id']
-//        return $response;
-//    })->setName('user');
-//    $group->get('/reset-password', function ($request, $response, array $args) {
-//        // Route for /users/{id}/reset-password
-//        // Reset the password for user identified by $args['id']
-//        return $response;
-//    })->setName('user-password-reset');
-//    $group->get('/profile', function ($request, $response, array $args) {
-//        // Route for /users/{id}/profile
-//        // Reset the password for user identified by $args['id']
-//        return $response;
-//    })->setName('user-profile');
-//});
-
-
-//$routeParser = $app->getRouteCollector()->getRouteParser();
-//echo $routeParser->urlFor('test-name', ['name' => 'Josh'], ['example' => 'name']);
-
-
-//
-//$app->get('/v1/routing-name-test[/{params:.*}]', function(Request $request, Response $response, $args = []){
-//    $params = explode("/", $args['params']);
-//    $response->getBody()->write(print_r($params, true));
-//    return $response;
-//})->setName('test-name');
-
-
-//$app->get('/v1/routing-name-test/{id:[0-9]+}', function(Request $request, Response $response, $args = []){
-//    $response->getBody()->write("ID is - " . $args['id']);
-//    return $response;
-//})->add(new MiddlewareBefore())->add(new MiddlewareAfter());

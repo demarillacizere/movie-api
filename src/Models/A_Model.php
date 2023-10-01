@@ -13,9 +13,11 @@ abstract class A_Model
     abstract function findAll(): array;
     abstract function findByNumberPerPage($numberPerPage): array;
 
-    abstract function findById(int $id): array;
+    abstract function findById(int $id): ?array;
 
-    abstract function update(array $data): bool;
+    abstract function update(int $id, array $data): bool;
+
+    abstract function patch(int $id, array $data): bool;
 
     abstract function insert(array $data): int;
 

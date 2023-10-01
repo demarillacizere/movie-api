@@ -23,11 +23,6 @@ class MiddlewareBefore
      */
     public function __invoke(Request $request, RequestHandler $handler): ResponseInterface
     {
-        //Authentication
-        //        if(!isset($_SESSION['user'])){
-        //            header('/v1/auth');
-        //        }
-
         //Logging requests
         $headers = "HEADERS: " . json_encode($request->getHeaders()) . PHP_EOL; // array
         $body = "BODY: " . (string)$request->getBody() . PHP_EOL; // string
