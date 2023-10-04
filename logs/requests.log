@@ -1,0 +1,1574 @@
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["291d972a-39b3-46b4-944f-4e4a6deb7a21"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["299"]}
+BODY: {
+    "title": " Now it's number 2 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":"457 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["5b6626e5-e6f9-42d3-b3ed-e61545fb6207"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["299"]}
+BODY: {
+    "title": " Now it's number 4 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":"457 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/45
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["a26f0a9c-c4f0-448e-901e-356a57c67364"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["299"]}
+BODY: {
+    "title": " Now it's number 4 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":"457 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/45
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["49b10567-fc38-4c46-bad0-65f25b0e15cd"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["299"]}
+BODY: {
+    "title": " Now it's number 4 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":"457 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/45
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["19fa8fa1-f44e-441e-99ff-9ce4f5f8a23c"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["299"]}
+BODY: {
+    "title": " Now it's number 4 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":"457 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/45
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["e148849e-7788-4ed5-abd3-a5c9be0dcd65"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["299"]}
+BODY: {
+    "title": " Now it's number 4 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":"457 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["93ca818a-9633-446a-ac74-67462f498893"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["299"]}
+BODY: {
+    "title": " Now it's number 4 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":"457 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["e07ac4bf-e0d9-43b1-a603-cead3330a353"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["299"]}
+BODY: {
+    "title": " Now it's number 4 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":"457 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["d1a84d59-c075-4740-be5c-e8fe58c869c7"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["293"]}
+BODY: {
+    "title": " Now it's number 4 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":457,
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["2d6406b6-c644-4dcc-a895-88a60fddf58b"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["298"]}
+BODY: {
+    "title": " Now it's number 4 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":45456787,
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["dafa2e11-74df-492a-a23c-6f807f4e6037"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["297"]}
+BODY: {
+    "title": " Now its number 5 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":45456787,
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["971"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["multipart\/form-data; boundary=----WebKitFormBoundaryO1iAsQrHJXJtAByb"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["1046"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["multipart\/form-data; boundary=----WebKitFormBoundary79Xp5bt6NF6qoLBa"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["1046"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["multipart\/form-data; boundary=----WebKitFormBoundarydMt7rwHltuCmpU78"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["223"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hello",
+  "year": 2034,
+  "released": "string",
+  "runtime": 0,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 0,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["1143"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["multipart\/form-data; boundary=----WebKitFormBoundaryphdGMScU4MGBAhw7"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["1143"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["multipart\/form-data; boundary=----WebKitFormBoundaryfZlsd8uHNy4wcNhe"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["1142"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["multipart\/form-data; boundary=----WebKitFormBoundarymTnMGhj0LajCSqk7"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["1142"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["multipart\/form-data; boundary=----WebKitFormBoundaryGAJlh2v0TDUaAf9n"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["f8426bf3-c8be-4e52-9eec-55f52b1ffc16"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------192241034319387518878966"],"Content-Length":["1299"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["f5e47187-aaf3-4fc3-b5fd-03d042f1054b"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------626937513885235871648211"],"Content-Length":["1299"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["209bfb32-7ff8-46fc-83fd-45a5d1e3f30b"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------752828695557934519031185"],"Content-Length":["1299"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["b7ccf678-b8bf-4948-b3b2-54152e95b07e"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------677896120635410696485418"],"Content-Length":["1299"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["f6f1a1bf-51dd-4f0f-ad56-df4a2beeb109"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["297"]}
+BODY: {
+    "title": " Now its number 5 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":45456787,
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["ce2c857f-5d19-4b26-8db0-2409e83de5e5"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------298649318434184239135085"],"Content-Length":["1299"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["ab93ec80-ff22-4810-be05-890f818b54c2"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------227652580117436828668369"],"Content-Length":["1299"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["2c3ac7da-1a05-4677-8c62-0282e49b288f"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------833990529846897933673870"],"Content-Length":["1299"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["f774118e-88de-4be5-830d-85d4e50cec35"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------768110899459982158217667"],"Content-Length":["1299"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["15f1b3c3-4bc3-4695-949f-83284eb16f5c"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------704584121570527263058091"],"Content-Length":["1301"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["06530d94-6d16-43c3-a2e2-bd5d1797cc1e"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------660117783047925019084043"],"Content-Length":["1301"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["9a901136-654b-4699-8302-efd77150a2ce"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------269392796158989740093972"],"Content-Length":["1301"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["81c1b789-1f10-4be1-aa3a-4c112fb3d3dc"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------231240133294024526473240"],"Content-Length":["1299"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["d4b23843-f70f-4e54-a472-dfce20c1d5c3"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------807488362100625268086983"],"Content-Length":["1299"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["cf5e8272-d182-4de2-a6cc-52113cfb253f"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------842754370260652654825762"],"Content-Length":["1301"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["7865d956-a062-484b-8713-a2e06f518bdb"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------776356115726716660155393"],"Content-Length":["1304"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["932c805b-d57e-47ef-8f07-d1893402accc"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------530243115610439508573221"],"Content-Length":["1304"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["efa764e2-cc0c-4515-8c07-4398b44911cf"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------718522686152475449403743"],"Content-Length":["1304"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["2e0ccdce-1759-46d0-83d2-81082f8a99ff"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------722147289227171430377584"],"Content-Length":["1304"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["be861791-06ff-478e-a5cf-9adf93c2c65f"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------832414962916610197997480"],"Content-Length":["1304"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["fd7d80b3-d28f-4dc3-b60e-9c051432b593"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------271938046148784600717306"],"Content-Length":["1304"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["8d249067-c22b-4aa9-affe-93f4971947f7"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------958919245347034454108335"],"Content-Length":["1302"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["18a8af41-0831-44de-9709-58a417f22058"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------841200101864052925520563"],"Content-Length":["1302"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["221"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 0,
+  "released": "string",
+  "runtime": 0,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 0,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["221"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 0,
+  "released": "string",
+  "runtime": 0,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 0,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["221"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["application\/json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 0,
+  "released": "string",
+  "runtime": 0,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 0,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["221"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["application\/json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 0,
+  "released": "string",
+  "runtime": 0,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 0,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["221"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 0,
+  "released": "string",
+  "runtime": 0,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 0,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["221"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 0,
+  "released": "string",
+  "runtime": 0,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 0,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["6807e4ea-caf4-40cf-a0d4-c576349f716f"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------747377636366058274777179"],"Content-Length":["1302"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["78db3dde-f1f2-4ad8-b87c-4acb9f7c4f18"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------364270953378657665550636"],"Content-Length":["1302"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["213bd436-7e44-4aae-af83-cfc1d34593b1"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------103071361229283768392410"],"Content-Length":["1302"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["beea087b-9686-4abc-be88-fd4e9627bda2"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Type":["multipart\/form-data; boundary=--------------------------150748911479701974026859"],"Content-Length":["1302"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["221"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 0,
+  "released": "string",
+  "runtime": 0,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 0,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["224"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 2034,
+  "released": "string",
+  "runtime": 0,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 0,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["226"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 2034,
+  "released": "string",
+  "runtime": 230,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 9,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["245"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 2034,
+  "released": "string",
+  "runtime": 230,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/doc",
+  "imdb": 9,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/50
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["225"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 3000,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/50
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["245"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 3000,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/68
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["245"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 3000,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["245"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 3000,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["245"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 2024,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["245"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 2025,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["245"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 2100,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["245"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 3100,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["245"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 2999,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["244"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 999,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["245"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 0999,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["244"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 999,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["245"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 9099,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["245"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 9099,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["243"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 99,
+  "released": "string",
+  "runtime": 123,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["247"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 99,
+  "released": "string",
+  "runtime": 123 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/30
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["27b7d7b5-aee1-48e7-afc3-aea79aa1cc13"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["303"]}
+BODY: {
+    "title": " Now its number 5 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":"45456787 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["729ee73a-1d6a-4919-97c9-28b5fd1fe1a5"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["303"]}
+BODY: {
+    "title": " Now its number 5 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":"45456787 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["249"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 99,
+  "released": "string",
+  "runtime": "123 min",
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["247"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 99,
+  "released": "string",
+  "runtime": 123 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["247"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 99,
+  "released": "string",
+  "runtime": 123 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["247"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 99,
+  "released": "string",
+  "runtime": 123 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["247"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 99,
+  "released": "string",
+  "runtime": 123 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["247"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 99,
+  "released": "string",
+  "runtime": 123 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["247"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "hhh",
+  "year": 99,
+  "released": "string",
+  "runtime": 123 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 500,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["228"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 23,
+  "released": "string",
+  "runtime": 23 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 03,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["228"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 23,
+  "released": "string",
+  "runtime": 23 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 03,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["b287da7b-3a72-472a-b477-1e533e3e536b"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["303"]}
+BODY: {
+    "title": " Now its number 5 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":"45456787 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["228"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 23,
+  "released": "string",
+  "runtime": 23 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 03,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["228"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 23,
+  "released": "string",
+  "runtime": 23 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 03,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["228"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 23,
+  "released": "string",
+  "runtime": 23 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 03,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["228"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 23,
+  "released": "string",
+  "runtime": 23 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 03,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["228"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 23,
+  "released": "string",
+  "runtime": 23 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 03,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["228"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 45,
+  "released": "string",
+  "runtime": 45 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 20,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["afbf7c35-14b1-4b9a-9f4c-c4b84e6e4c95"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["303"]}
+BODY: {
+    "title": " Now its number 5 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":"202343",
+    "runtime":"45456787 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["c9a1f74e-ca41-42fd-b3ba-dc0987aaa1e6"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["302"]}
+BODY: {
+    "title": " Now its number 5 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":202343h,
+    "runtime":"45456787 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["55dbfe9f-9294-47cd-a927-97af159eaabf"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["302"]}
+BODY: {
+    "title": " Now its number 5 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":202343h,
+    "runtime":"45456787 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["593e4fee-bc28-46af-81c6-74624ac94974"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["302"]}
+BODY: {
+    "title": " Now its number 5 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":202343h,
+    "runtime":"45456787 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["fd9bcf17-0e88-4ede-a0bf-c4e39d8c7875"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["302"]}
+BODY: {
+    "title": " Now its number 5 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":202343h,
+    "runtime":"45456787 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Content-Type":["application\/json"],"Authorization":["Bearer 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"],"User-Agent":["PostmanRuntime\/7.32.3"],"Accept":["*\/*"],"Postman-Token":["004f3afe-d276-40b5-8e0b-ce0be2104496"],"Host":["localhost"],"Accept-Encoding":["gzip, deflate, br"],"Connection":["keep-alive"],"Content-Length":["302"]}
+BODY: {
+    "title": " Now its number 5 lets see if it works at the final last trial!!",
+    "year": 1917,
+    "released":202343h,
+    "runtime":"45456787 min",
+    "imdb":"7.16",
+    "type":"n",
+    "genre":"n",
+    "poster":"http://google.com",
+    "actors":"n",
+    "director":"n",
+    "country":"n"
+    }
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["228"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 45,
+  "released": "string",
+  "runtime": 45 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 20,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["228"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 45,
+  "released": "string",
+  "runtime": 45 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 20,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["35"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "Patching",
+"year":
+
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["35"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "Patching",
+"year":
+
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["36"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "Patching",
+"year":0
+
+}
+
+
+URI: http://localhost:8888/v1/movies/60
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["39"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "Patching",
+"year":2030
+
+}
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/5
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/100
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/5/sort/%7BfieldToSort%7D
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/4/sort/uid
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/4/sort/id
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/apidocs
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Accept":["application\/json,*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/fill-with-sample-data
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/fill-with-sample-data
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/fill-with-sample-data
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/10/sort/title
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/3
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/74
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: 
+
+
+URI: http://localhost:8888/v1/movies/75
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["233"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 2022,
+  "released": "string",
+  "runtime": 234 min,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 1234,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/75
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["225"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 23,
+  "released": "string",
+  "runtime": "23",
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 4,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/75
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["223"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 23,
+  "released": "string",
+  "runtime": 23,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "string",
+  "imdb": 4,
+  "type": "string"
+}
+
+
+URI: http://localhost:8888/v1/movies/75
+HEADERS: {"Host":["localhost"],"Connection":["keep-alive"],"Content-Length":["243"],"sec-ch-ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"accept":["*\/*"],"Content-Type":["json"],"sec-ch-ua-mobile":["?0"],"User-Agent":["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/117.0.0.0 Safari\/537.36"],"sec-ch-ua-platform":["\"macOS\""],"Origin":["http:\/\/localhost:8888"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Dest":["empty"],"Referer":["http:\/\/localhost:8888\/docs\/"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"]}
+BODY: {
+  "title": "string",
+  "year": 23,
+  "released": "string",
+  "runtime": 23,
+  "genre": "string",
+  "director": "string",
+  "actors": "string",
+  "country": "string",
+  "poster": "http://localhost:8888/docs",
+  "imdb": 4,
+  "type": "string"
+}
+
+
